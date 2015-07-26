@@ -32,17 +32,18 @@ class Walmart(scrapy.Spider):
             nextstart = self.start_urls[0] + nextstart[0]
             #If there is a next button we click on it
             yield Request(nextstart, self.parse)
+
         #we get the unlocked cells list from walmart
         sitelinks = response.xpath('//div/a[@class="js-product-title"]/@href').extract()
         for sitelink in sitelinks:
             #the strip() methode removes the carriage returns from the got link
             sitelink = "http://www.walmart.com" + sitelink.strip()
             yield Request(sitelink, self.parse)
+
         item = EaCOpenListBotItem()
-        #Common xpath links to Cells and Tablets
         product = response.xpath('//div[@class="js-ellipsis module"]/p/b').extract()
         if product:
             item["product"] = product[0]
-        item["vendor"] = response.xpath('//span[@itemprop="brand"]/text()').extract()
+        item["vendor"] = response.xpath('//div/a[@id="brand"]/text()').extract()
         item["default"] = response.xpath('//div[@class="js-ellipsis module"]').extract()
         yield item
