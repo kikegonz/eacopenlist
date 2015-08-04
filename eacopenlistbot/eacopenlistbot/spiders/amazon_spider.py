@@ -4,6 +4,8 @@
 import scrapy
 from scrapy.http import Request
 from eacopenlistbot.items import EaCOpenListBotItem
+import nltk
+import re
 
 
 class Amazon(scrapy.Spider):
@@ -34,14 +36,31 @@ class Amazon(scrapy.Spider):
             #If there is a next button we click on it
             yield Request(nextstart, self.parse)
 
-        #we get the most selled products in amazon site
+        #we get the product links in amazon site
         sitelinks = response.xpath('//div/a[@class="a-link-normal a-text-normal"]/@href').extract()
         for sitelink in sitelinks:
             #the strip() methode removes the carriage returns from the got link
             yield Request(sitelink.strip(), self.parse)
 
         item = EaCOpenListBotItem()
-        item["product"] = response.xpath('//div/h1/span[@id="productTitle"]/text()').extract()
-        item["vendor"] = response.xpath('//tr[td="Marca"]/td[@class="value"]/text()').extract()
-        item["default"] = response.xpath('//div[@class="a-box-inner"]/ul').extract()
+        product = response.xpath('//div/h1/span[@id="productTitle"]/text()').extract()
+        #We remove any comma from the product to keep the output csv format
+        if product:
+            item["product"] = re.sub(",", "", product[0])
+        item["vendor"] = response.xpath('//div/a[@id="brand"]/text()').extract()
+        default = response.xpath('//div[@class="a-box-inner"]/ul').extract()
+        if default:
+            #we tokenize the text crawled to keep the output csv format
+            item["default"] = self.tokenize(default[0])
         yield item
+
+    def tokenize(self, text):
+        #This function goal is to tokenize the text crawled avoiding carriage returns, blanks, stopwords, html tags, etc
+        pattern = r'''(?x)    # set flag to allow verbose regexps
+            [^ ",<>()\t\n=]+  # All the characters we want to strip out
+            '''
+        text = nltk.regexp_tokenize(text, pattern)
+        stopwords = nltk.corpus.stopwords.words('english')
+        text = [w.lower() for w in text]
+        text = [w for w in text if w not in stopwords]
+        return text

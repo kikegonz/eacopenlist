@@ -8,20 +8,21 @@ import nltk
 import re
 
 
-class Walmart(scrapy.Spider):
-    name = "Walmart"
-    allowed_domains = ["walmart.com"]
+class Newegg(scrapy.Spider):
+    name = "Newegg"
+    allowed_domains = ["newegg.com"]
 
     def __init__(self, argument=None, *args, **kwargs):
-        super(Walmart, self).__init__(*args, **kwargs)
+        super(Newegg, self).__init__(*args, **kwargs)
         #With the argument variable we tell the spider the category and so the start_urls
         #execution example
-        #scrapy crawl walmart -a argument=Cells
+        #scrapy crawl Newegg -a argument=Cells
         self.category = argument  # In case we use the category at the pipeline
+        self.index = 1
         if self.category == "Cells":
             self.start_urls = [
-                #walmart unlocked, news cell phones
-                "http://www.walmart.com/browse/cell-phones/unlocked-phones/1105910_1073085",
+                #newegg unlocked, news cell phones
+                "http://www.newegg.com/Product/ProductList.aspx?Submit=ENE&IsNodeId=1&N=100026674%204814",
                 ]
         elif self.category == "Tablets":
             self.start_urls = [
@@ -30,26 +31,28 @@ class Walmart(scrapy.Spider):
 
     def parse(self, response):
         #Next Button
-        nextstart = response.xpath('//div/a[@class="paginator-btn paginator-btn-next"]/@href').extract()
-        if nextstart:
-            nextstart = self.start_urls[0] + nextstart[0]
-            #If there is a next button we click on it
-            yield Request(nextstart, self.parse)
+        self.index += 1
+        #Since next button is a javascript code at newegg.com we look for the easiest way to implement it
+        #We'll concatenate the string &PAge= sequentially till the last page plus one that will not exist and will stop the crawler'
+        nextstart = self.start_urls[0] + "&Page=" + str(self.index)
+        yield Request(nextstart, self.parse)
 
         #we get the product links in walmart site
-        sitelinks = response.xpath('//div/a[@class="js-product-title"]/@href').extract()
+        sitelinks = response.xpath('//div/a[@title="View Details"]/@href').extract()
         for sitelink in sitelinks:
             #the strip() methode removes the carriage returns from the got link
-            sitelink = "http://www.walmart.com" + sitelink.strip()
-            yield Request(sitelink, self.parse)
+            yield Request(sitelink.strip(), self.parse)
 
         item = EaCOpenListBotItem()
-        product = response.xpath('//div[@class="js-ellipsis module"]/p/b/text()').extract()
+        product = response.xpath('//div/h1/span[@itemprop="name"]/text()').extract()
         #We remove any comma and tag from the product to keep the output csv format
         if product:
-            item["product"] = re.sub(",", "", product[0])
-        item["vendor"] = response.xpath('//div/a/span[@itemprop="brand"]/text()').extract()
-        default = response.xpath('//div[@class="js-ellipsis module"]').extract()
+            product = product[0].strip()
+            item["product"] = re.sub(",", "", product)
+        vendor = response.xpath('//div[@class="objOption"]/a/@title').extract()
+        if vendor:
+            item["vendor"] = vendor[0]
+        default = response.xpath('//div[@id="Specs"]').extract()
         if default:
             #we tokenize the text crawled to keep the output csv format
             item["default"] = self.tokenize(default[0])
@@ -57,8 +60,9 @@ class Walmart(scrapy.Spider):
 
     def tokenize(self, text):
         #This function goal is to tokenize the text crawled avoiding carriage returns, blanks, stopwords, html tags, etc
+        text = re.sub("\r\n", "", text)
         pattern = r'''(?x)    # set flag to allow verbose regexps
-            [^ ",<>()\t\n=]+  # All the characters we want to strip out
+            ([^ ",<>()\t\n=])+  # All the characters we want to strip out
             '''
         text = nltk.regexp_tokenize(text, pattern)
         stopwords = nltk.corpus.stopwords.words('english')
