@@ -8,20 +8,20 @@ import nltk
 import re
 
 
-class Overstock(scrapy.Spider):
-    name = "Overstock"
-    allowed_domains = ["overstock.com"]
+class Mysmartprice(scrapy.Spider):
+    name = "Mysmartprice"
+    allowed_domains = ["mysmartprice.com"]
 
     def __init__(self, argument=None, *args, **kwargs):
-        super(Overstock, self).__init__(*args, **kwargs)
+        super(Mysmartprice, self).__init__(*args, **kwargs)
         #With the argument variable we tell the spider the category and so the start_urls
         #execution example
-        #scrapy crawl Overstock -a argument=Cells
+        #scrapy crawl Mysmartprice -a argument=Cells
         self.category = argument  # In case we use the category at the pipeline
         if self.category == "Cells":
             self.start_urls = [
-                #Overstock unlocked cell phones
-                "http://www.overstock.com/Electronics/Cell-Phones/912/cat.html?sort=New%20Arrivals",
+                #mysmartprice cell phones
+                "http://www.mysmartprice.com/mobile/pricelist/mobile-price-list-in-india.html#subcategory=mobile",
                 ]
         elif self.category == "Tablets":
             self.start_urls = [
@@ -29,20 +29,25 @@ class Overstock(scrapy.Spider):
                 ]
 
     def parse(self, response):
-        #There isn't next button code since it is javascript code under scroll event
-        #We will sort by new arrivals to minimize the impact in knowing new products
-        #we get the product links in Overstock site
-        sitelinks = response.xpath('//div/a[@class="pro-thumb"]/@href').extract()
+        #Next Button
+        nextstart = response.xpath('//div/a[@class="msplistnav next"]/@href').extract()
+        if nextstart:
+            nextstart = self.start_urls[0] + nextstart[0]
+            #If there is a next button we click on it
+            yield Request(nextstart, self.parse)
+
+        #we get the product links in mysmartprice site
+        sitelinks = response.xpath('//div/a[@class="item-title"]/@href').extract()
         for sitelink in sitelinks:
             #the strip() methode removes the carriage returns from the got link
             yield Request(sitelink.strip(), self.parse)
 
         item = EaCOpenListBotItem()
-        product = response.xpath('//div/span[@itemprop="name"]/h1/text()').extract()
+        product = response.xpath('//div[@class="product_title"]/h1/text()').extract()
         #We remove any comma from the product to keep the output csv format
         if product:
             item["product"] = re.sub(",", "", product[0])
-        default = response.xpath('//div[@class="description toggle-content"]').extract()
+        default = response.xpath('//div[@class="item_details wp-content"]').extract()
         if default:
             #we tokenize the text crawled to keep the output csv format
             item["default"] = self.tokenize(default[0])
