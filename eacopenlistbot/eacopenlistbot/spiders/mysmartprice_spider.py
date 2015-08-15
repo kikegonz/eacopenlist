@@ -5,7 +5,6 @@ import scrapy
 from scrapy.http import Request
 from eacopenlistbot.items import EaCOpenListBotItem
 import nltk
-import re
 
 
 class Mysmartprice(scrapy.Spider):
@@ -44,25 +43,19 @@ class Mysmartprice(scrapy.Spider):
 
         item = EaCOpenListBotItem()
         product = response.xpath('//div[@class="product_title"]/h1/text()').extract()
-        #We remove any comma from the product to keep the output csv format
         if product:
-            item["product"] = re.sub(",", "", product[0])
+            product = product[0].lower()  # In order to tag colours properly at the preprocess function
+            item["product"] = self.ie_preprocess(product)
+
         default = response.xpath('//div[@class="item_details wp-content"]').extract()
         if default:
-            #we tokenize the text crawled to keep the output csv format
-            item["default"] = self.tokenize(default[0])
+            default = ''.join(default)  # ie_preprocess input is expected to be raw text
+            item["default"] = self.ie_preprocess(default)
         yield item
 
-    def tokenize(self, text):
-        #This function goal is to tokenize the text crawled avoiding carriage returns, blanks, stopwords, html tags, etc
-        text = re.sub("\n", "", text)
-        text = re.sub("\t", "", text)
-        text = re.sub("\r", "", text)
-        pattern = r'''(?x)    # set flag to allow verbose regexps
-            [^ ",<>()\t\n=]+  # All the characters we want to strip out
-            '''
-        text = nltk.regexp_tokenize(text, pattern)
-        stopwords = nltk.corpus.stopwords.words('english')
-        text = [w.lower() for w in text]
-        text = [w for w in text if w not in stopwords]
-        return text
+    def ie_preprocess(self, text):
+        #http://www.nltk.org/book/ch07.html   1.1 Information extraction Architecture
+        sentences = nltk.sent_tokenize(text)
+        sentences = [nltk.word_tokenize(sent) for sent in sentences]
+        sentences = [nltk.pos_tag(sent) for sent in sentences]
+        return sentences

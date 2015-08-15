@@ -5,7 +5,6 @@ import scrapy
 from scrapy.http import Request
 from eacopenlistbot.items import EaCOpenListBotItem
 import nltk
-import re
 
 
 class Amazon(scrapy.Spider):
@@ -43,24 +42,25 @@ class Amazon(scrapy.Spider):
             yield Request(sitelink.strip(), self.parse)
 
         item = EaCOpenListBotItem()
+        #taking the items and preprocessing them to information extraction
         product = response.xpath('//div/h1/span[@id="productTitle"]/text()').extract()
-        #We remove any comma from the product to keep the output csv format
         if product:
-            item["product"] = re.sub(",", "", product[0])
-        item["vendor"] = response.xpath('//div/a[@id="brand"]/text()').extract()
-        default = response.xpath('//div[@class="a-box-inner"]/ul').extract()
+            product = product[0].lower()  # In order to tag colours properly at the preprocess function
+            item["product"] = self.ie_preprocess(product)
+
+        vendor = response.xpath('//div/a[@id="brand"]/text()').extract()
+        if vendor:
+            item["vendor"] = self.ie_preprocess(vendor[0])
+
+        default = response.xpath('//div[@id="feature-bullets"]/ul/li').extract()
         if default:
-            #we tokenize the text crawled to keep the output csv format
-            item["default"] = self.tokenize(default[0])
+            default = ''.join(default)  # ie_preprocess input is expected to be raw text
+            item["default"] = self.ie_preprocess(default)
         yield item
 
-    def tokenize(self, text):
-        #This function goal is to tokenize the text crawled avoiding carriage returns, blanks, stopwords, html tags, etc
-        pattern = r'''(?x)    # set flag to allow verbose regexps
-            [^ ",<>()\t\n=]+  # All the characters we want to strip out
-            '''
-        text = nltk.regexp_tokenize(text, pattern)
-        stopwords = nltk.corpus.stopwords.words('english')
-        text = [w.lower() for w in text]
-        text = [w for w in text if w not in stopwords]
-        return text
+    def ie_preprocess(self, text):
+        #http://www.nltk.org/book/ch07.html   1.1 Information extraction Architecture
+        sentences = nltk.sent_tokenize(text)
+        sentences = [nltk.word_tokenize(sent) for sent in sentences]
+        sentences = [nltk.pos_tag(sent) for sent in sentences]
+        return sentences
