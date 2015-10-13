@@ -4,7 +4,7 @@
 import scrapy
 from scrapy.http import Request
 from eacopenlistbot.items import EaCOpenListBotItem
-import nltk
+import re
 
 
 class Amazon(scrapy.Spider):
@@ -45,22 +45,29 @@ class Amazon(scrapy.Spider):
         #taking the items and preprocessing them to information extraction
         product = response.xpath('//div/h1/span[@id="productTitle"]/text()').extract()
         if product:
-            product = product[0].lower()  # In order to tag colours properly at the preprocess function
-            item["product"] = self.ie_preprocess(product)
+            item["product"] = self.csv_preprocess(product[0])
 
         vendor = response.xpath('//div/a[@id="brand"]/text()').extract()
         if vendor:
-            item["vendor"] = self.ie_preprocess(vendor[0])
+            item["vendor"] = vendor[0]
 
         default = response.xpath('//div[@id="feature-bullets"]/ul/li').extract()
+        #if not default:
+        #    default = response.body
         if default:
-            default = ''.join(default)  # ie_preprocess input is expected to be raw text
-            item["default"] = self.ie_preprocess(default)
+            #csv_preprocess input is expected to be raw text so we join all the items crawled in a string
+            #We use the dot mark for later processing in order to tokenize sentences properly
+            default = ' . '.join(default)
+            item["default"] = self.csv_preprocess(default)
         yield item
 
-    def ie_preprocess(self, text):
-        #http://www.nltk.org/book/ch07.html   1.1 Information extraction Architecture
-        sentences = nltk.sent_tokenize(text)
-        sentences = [nltk.word_tokenize(sent) for sent in sentences]
-        sentences = [nltk.pos_tag(sent) for sent in sentences]
-        return sentences
+    def csv_preprocess(self, text):
+        #We remove any type of carriage return, tab and comma
+        text = re.sub("\r\n", ". ", text)
+        text = re.sub("\n", ". ", text)
+        text = re.sub("\r", ". ", text)
+        text = re.sub("\t", ". ", text)
+        text = re.sub(",", " ", text)
+        text = re.sub(r'<[^<]*?>', " ", text)  # Avoiding html tags
+        text = re.sub(r'\s+', " ", text)  # Avoiding more than one blanks
+        return text

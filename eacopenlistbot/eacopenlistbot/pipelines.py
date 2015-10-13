@@ -22,10 +22,11 @@ class EaCOpenListBotPipeline(object):
         return pipeline
 
     def spider_opened(self, spider):
-        file = open('%s_%s_items.csv' % (spider.name, spider.category), 'w+b')
+        file = open('%s_%s_default2_items.csv' % (spider.name, spider.category), 'w+b')
         self.files[spider] = file
         self.exporter = CsvItemExporter(file)
-        self.exporter.fields_to_export = ['vendor', 'product', 'default']
+        #self.exporter.fields_to_export = ['vendor', 'product', 'default']
+        self.exporter.fields_to_export = ['default']
         self.exporter.start_exporting()
 
     def spider_closed(self, spider):

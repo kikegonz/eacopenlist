@@ -50,7 +50,7 @@ class Walmart(scrapy.Spider):
 
         vendor = response.xpath('//div/a/span[@itemprop="brand"]/text()').extract()
         if vendor:
-            item["vendor"] = self.ie_preprocess(vendor[0])
+            item["vendor"] = vendor[0]
 
         default = response.xpath('//div[@class="js-ellipsis module"]').extract()
         if default:
