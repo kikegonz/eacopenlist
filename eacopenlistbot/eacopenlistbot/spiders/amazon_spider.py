@@ -70,4 +70,5 @@ class Amazon(scrapy.Spider):
         text = re.sub(",", " ", text)
         text = re.sub(r'<[^<]*?>', " ", text)  # Avoiding html tags
         text = re.sub(r'\s+', " ", text)  # Avoiding more than one blanks
+        text = re.sub(r'\(|\)|®|\[|\]', " ", text) # Avoiding unneeded or undesired symbols
         return text
