@@ -3,7 +3,7 @@ from nltk.corpus.reader import ConllChunkCorpusReader
 
 
 ############################################################
-Trigram Chunker
+#Trigram Chunker
 ############################################################
 
 
@@ -23,11 +23,11 @@ class TrigramChunker(nltk.ChunkParserI):
         return nltk.chunk.conlltags2tree(conlltags)
 
 #Lets define the ConllChunkCorpusReader corpus. Each of the files should begin by "trainer_"
-conllreader = ConllChunkCorpusReader('./labo/eacopenlist/chunker/conlleac/', 'trainer_.*', ('VND', 'PDT', 'VSN', 'FTR'))
+conllreader = ConllChunkCorpusReader('conlleac/', 'trainer_.*', ('VND', 'PDT', 'VSN'))
 
 #We train a chunker for each corpus file.
 #trainer_product trains with the goal of recognize NE elements inside visited pages titles
-train_sents_product = conllreader.chunked_sents('trainer_product_train', chunk_types=['VND', 'PDT', 'VSN', 'FTR'])
+train_sents_product = conllreader.chunked_sents('trainer_product_train', chunk_types=['VND', 'PDT', 'VSN'])
 chunkerTrigram_product = TrigramChunker(train_sents_product)
 
 #We use the same ConllChunkCorpusReader corpus to train a tagger
@@ -38,7 +38,7 @@ tagger_t1 = nltk.UnigramTagger(train_tagger_product, backoff=tagger_t0)
 #Evaluating the tagger
 print(tagger_t1.evaluate(conllreader.tagged_sents('trainer_product_test')))
 #Evaluating the chunker
-test_sents_product = conllreader.chunked_sents('trainer_product_test', chunk_types=['VND', 'PDT', 'VSN', 'FTR'])
+test_sents_product = conllreader.chunked_sents('trainer_product_test', chunk_types=['VND', 'PDT', 'VSN'])
 print(chunkerTrigram_product.evaluate(test_sents_product))
 
 '''

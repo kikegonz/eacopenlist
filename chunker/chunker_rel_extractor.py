@@ -20,7 +20,7 @@ import datetime
 #########################################################################
 # Chunker trainer definition
 # Importing and initializing the Corpus. Each of the files should begin by "trainer_"
-conllreader = ConllChunkCorpusReader('./labo/eacopenlist/chunker/conlleac/', 'trainer_.*', ('VND', 'PDT', 'VSN'))
+conllreader = ConllChunkCorpusReader('conlleac/', 'trainer_.*', ('VND', 'PDT', 'VSN'))
 
 
 # Trainer function
@@ -66,16 +66,16 @@ def chunker(text, chunker_trainer):
 #####################################################################################################
 #Opening log file and routing the stdout and stderr
 saveout = sys.stdout
-fsock = open('/home/quique/labo/eacopenlist/eacopenlistbot/log/chunker_rel_extractor.log', 'a')
+fsock = open('../eacopenlistbot/log/chunker_rel_extractor.log', 'a')
 sys.stdout = fsock
 sys.stderr = fsock
 
 #Opening all the CSV files at the work directory
-csv_list = subprocess.check_output('ls /home/quique/labo/eacopenlist/eacopenlistbot/*.csv', shell=True, )
+csv_list = subprocess.check_output('ls ../eacopenlistbot/*.csv', shell=True, )
 csv_list = csv_list.split('\n')
 
 #Getting ready the output file
-csv_output = csv.writer(open('/home/quique/labo/eacopenlist/eacopenlistbot/info_output.csv', 'w+'))
+csv_output = csv.writer(open('../eacopenlistbot/info_output.csv', 'w+'))
 for csv_file in csv_list:
     csv_input = csv.reader(file(csv_file))
     #We save the source in order to prioritize results according the reliability of the web source information
