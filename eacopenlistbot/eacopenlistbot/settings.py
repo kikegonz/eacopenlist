@@ -14,8 +14,7 @@ SPIDER_MODULES = ['eacopenlistbot.spiders']
 NEWSPIDER_MODULE = 'eacopenlistbot.spiders'
 
 COOKIES_ENABLED = False
-#USER_AGENT = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0"
-USER_AGENT = 'pre_eacopenlistbot (+http://www.eacopenlist.org)'
+USER_AGENT = 'eacopenlistbot (http://www.eacopenlist.org)'
 DOWNLOAD_DELAY = 2.25
 LOG_FILE = "log/crawlers.log"  # forced to run at same directory where scrapy.cfg exists
 LOG_LEVEL = "INFO"

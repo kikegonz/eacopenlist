@@ -4,7 +4,7 @@
 import scrapy
 from scrapy.http import Request
 from eacopenlistbot.items import EaCOpenListBotItem
-import nltk
+import re
 
 
 class Mysmartprice(scrapy.Spider):
@@ -29,33 +29,43 @@ class Mysmartprice(scrapy.Spider):
 
     def parse(self, response):
         #Next Button
-        nextstart = response.xpath('//div/a[@class="msplistnav next"]/@href').extract()
+        nextstart = response.xpath('//a[text()="Next"]/@href').extract()
         if nextstart:
             nextstart = self.start_urls[0] + nextstart[0]
             #If there is a next button we click on it
             yield Request(nextstart, self.parse)
 
         #we get the product links in mysmartprice site
-        sitelinks = response.xpath('//div/a[@class="item-title"]/@href').extract()
+        sitelinks = response.xpath('//div/a[@class="prdct-item__name"]/@href').extract()
         for sitelink in sitelinks:
             #the strip() methode removes the carriage returns from the got link
             yield Request(sitelink.strip(), self.parse)
 
         item = EaCOpenListBotItem()
-        product = response.xpath('//div[@class="product_title"]/h1/text()').extract()
+        product = response.xpath('//div/h1[@class="prdct-dtl__ttl"]/text()').extract()
         if product:
-            product = product[0].lower()  # In order to tag colours properly at the preprocess function
-            item["product"] = self.ie_preprocess(product)
+            item["product"] = self.csv_preprocess(product[0])
 
-        default = response.xpath('//div[@class="item_details wp-content"]').extract()
+        vendor = response.xpath('//div/img[@class="prdct-dtl__brnd-img"]/@alt').extract()
+        if vendor:
+            item["vendor"] = vendor[0]
+
+        default = response.xpath('//div[@data-id="technical-specifications"]').extract()
         if default:
-            default = ''.join(default)  # ie_preprocess input is expected to be raw text
-            item["default"] = self.ie_preprocess(default)
+            #csv_preprocess input is expected to be raw text so we join all the items crawled in a string
+            #We use the dot mark for later processing in order to tokenize sentences properly
+            default = ' . '.join(default)
+            item["default"] = self.csv_preprocess(default)
         yield item
 
-    def ie_preprocess(self, text):
-        #http://www.nltk.org/book/ch07.html   1.1 Information extraction Architecture
-        sentences = nltk.sent_tokenize(text)
-        sentences = [nltk.word_tokenize(sent) for sent in sentences]
-        sentences = [nltk.pos_tag(sent) for sent in sentences]
-        return sentences
+    def csv_preprocess(self, text):
+        #We remove any type of carriage return, tab and comma
+        text = re.sub("\r\n", ". ", text)
+        text = re.sub("\n", ". ", text)
+        text = re.sub("\r", ". ", text)
+        text = re.sub("\t", ". ", text)
+        text = re.sub(",", " ", text)
+        text = re.sub(r'<[^<]*?>', " ", text)  # Avoiding html tags
+        text = re.sub(r'\s+', " ", text)  # Avoiding more than one blanks
+        text = re.sub(r'\(|\)|®|\[|\]', " ", text)  # Avoiding unneeded or undesired symbols
+        return text
