@@ -3,7 +3,7 @@
 
 ***eacopenlist.org*** is an open source project with the aim of maintain a database of all the electronical stuff like mobile cells, laptops, tablets, etc. and all its features.
 
-The goal is to keep the information open and available in a standar or well-known format to any person or organization. The list could be the cornerstone for all sort of big data applications at the service of the users in order to improve buyers decisions.
+The goal is to keep the information open and available in a standard or well-known format to any person or organization. The list could be the cornerstone for all sort of big data applications at the service of the users in order to improve buyers decisions.
 
 
 **How do we get the information**

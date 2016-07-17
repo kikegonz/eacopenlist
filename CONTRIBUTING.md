@@ -64,7 +64,7 @@ Tools and dependencies:
 **Suggestions and Mailing List**
 ----------------------------
 
-Mailing list and other resources pending hosting at ourproject.org
+Please join [our mailing list](https://lists.ourproject.org/mailman/listinfo/eacopenlist-main) to be up to date with the project
 
 
 
