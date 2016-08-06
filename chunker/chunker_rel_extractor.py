@@ -86,7 +86,7 @@ for csv_file in csv_list:
         #Intializing the lists of items to save from the crawled data.
         product = []
         vendor = []
-        feature = []
+        version = []
         if cur_row >= start_row:
             out_vendor = ""
             out_product = ""
@@ -110,15 +110,16 @@ for csv_file in csv_list:
                             if subtree.label() == "PDT":
                                 for leave in subtree.leaves():
                                     product.append(leave[0])
-                            if subtree.label() == "FTR":
+                            if subtree.label() == "VSN":
                                 for leave in subtree.leaves():
-                                    feature.append(leave[0])
+                                    version.append(leave[0])
                         except:
                             pass
                     #Lets Join the list to conform the results
                     if not out_vendor:
                         out_vendor = " ".join(vendor)
                     out_product = " ".join(product)
+                    out_version = " ".join(version)
             '''
             if row[2]:
                 #Pending of trainer corpus to identify features at the web bodies (row[2])
