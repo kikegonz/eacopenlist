@@ -29,68 +29,68 @@ ARM NNP O
 Mali-400 NNP O
 GPU NNP O
 . . O
-8GB
-Internal
-Memory
-1GB
-RAM
-Micro
-SD
-up
-to
-64GB
+8GB CD B-HRD
+Internal JJ O
+Memory NN O
+1GB CD B-RAM
+RAM NNP O
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
-5.0""
-IPS
-Display:
-5MP
-Autofocus
-Main
-Camera
+5.0"" CD B-SCR
+IPS NNP O
+Display: NNP O
+5MP CD B-CAM
+Autofocus NNP O
+Main JJ O
+Camera NNP O
 with RP O
-LED
-Flash
-and
-5MP
-Autofocus
-Front
-Camera
+LED NNP O
+Flash NNP O
+and CC O
+5MP CD B-CAM
+Autofocus NNP O
+Front RP O
+Camera NN O
 with RP O
-LED
-Flash
-and
-BLU
-Final
-Touch
-Software
+LED NNP O
+Flash NNP O
+and CC O
+BLU NNP O
+Final NNP O
+Touch NNP O
+Software NN O
 . . O
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-Band:
-US
-Compatibility
-Nationwide
-on
-all
+Quad NNP O
+Band: NNP O
+US NNP O
+Compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
-Networks
-including
-AT&amp;T
-T-Mobile
-Cricket
-MetroPCS
-Straight
-Talk
-USA
-Pure
-Talk
-USA
-and
-others
+Networks NNS O
+including VBG O
+AT&amp;T NNP O
+T-Mobile NNP O
+Cricket NNP O
+MetroPCS NNP O
+Straight NNP O
+Talk NNP O
+USA NNP O
+Pure NNP O
+Talk NNP O
+USA NNP O
+and CC O
+others PRP O
 " '' O
 
 " '' O
@@ -118,22 +118,22 @@ Glass
 16GB
 Internal
 memory
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 and
-Micro
-SD
-up
-to
-64GB
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
 13MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 and
 5MP
-Front
-Camera
+Front RP O
+Camera NN O
 . . O
 PDAF
 technology
@@ -155,18 +155,18 @@ GPU NNP O
 4G
 LTE
 2/4/7/12/17
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-band:
-US
-compatibility
-Nationwide
-on
-all
+Quad NNP O
+band: NNP O
+US NNP O
+compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -361,7 +361,7 @@ Grand
 Prime
 DUOS
 G531H/DS
-8GB
+8GB CD B-HRD
 Unlocked VBN O
 GSM NNP B-CTY
 Quad-Core
@@ -397,7 +397,7 @@ HSDPA
 . . O
 2100
 . . O
-5-inch
+5-inch CD B-SCR
 TFT
 Display
 Capacitive
@@ -440,16 +440,16 @@ Camera
 . . O
 Internal
 Memory:
-8GB
-1GB
-RAM
+8GB CD B-HRD
+1GB CD B-RAM
+RAM NNP O
 . . O
 microSD
-Slot
-Expandable
-up
-to
-64GB
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
+64GB CD O
 
 Life
 One
@@ -494,8 +494,8 @@ USB
 16GB
 Internal
 memory
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 1.3 CD B-PCS
 GHz NNP I-PCS
 Octa-Core
@@ -507,16 +507,16 @@ T720
 GPU NNP O
 . . O
 13MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 with RP O
 Phase
 Detection
 Autofocus
 and
 5MP
-Front
-Camera
+Front RP O
+Camera NN O
 with RP O
 LED
 flash
@@ -524,18 +524,18 @@ flash
 4G
 LTE
 2/4/7/12/17
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-band:
-US
-compatibility
-Nationwide
-on
-all
+Quad NNP O
+band: NNP O
+US NNP O
+compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -648,8 +648,8 @@ separately
 32GB
 Internal
 with RP O
-Micro
-SD
+Micro JJ O
+SD NNP O
 Card
 Slot
 Supporting
@@ -657,8 +657,8 @@ up
 to
 . . O
 TB
-Micro
-SD
+Micro JJ O
+SD NNP O
 Card
 sold
 Separately
@@ -825,7 +825,7 @@ iPhone
 . . O
 MD439LL/A
 - - O
-8GB
+8GB CD B-HRD
 Smartphone NN O
 - - O
 Black
@@ -856,7 +856,7 @@ plus
 90-day
 warranty
 . . O
-8GB
+8GB CD B-HRD
 internal
 storage
 - - O
@@ -1287,16 +1287,16 @@ arm NNP O
 Mali-400 NNP O
 GPU NNP O
 . . O
-5.0""
-IPS
-display:
+5.0"" CD B-SCR
+IPS NNP O
+display: NNP O
 5MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 with RP O
-LED
-flash
-and
+LED NNP O
+flash NNP O
+and CC O
 2MP
 Camera
 with RP O
@@ -1308,11 +1308,11 @@ Internal
 memory
 768MB
 RAM
-Micro
-SD
-up
-to
-64GB
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
 GSM NNP B-CTY
 Quad
@@ -1321,11 +1321,11 @@ band
 HSPA+
 850/1700/1900
 . . O
-US
-compatibility
-Nationwide
-on
-all
+US NNP O
+compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -1376,16 +1376,16 @@ arm NNP O
 Mali-400 NNP O
 GPU NNP O
 . . O
-5.0""
-IPS
-display:
+5.0"" CD B-SCR
+IPS NNP O
+display: NNP O
 5MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 with RP O
-LED
-flash
-and
+LED NNP O
+flash NNP O
+and CC O
 2MP
 Camera
 with RP O
@@ -1397,11 +1397,11 @@ Internal
 memory
 768MB
 RAM
-Micro
-SD
-up
-to
-64GB
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
 GSM NNP B-CTY
 Quad
@@ -1410,11 +1410,11 @@ band
 HSPA+
 850/1700/1900
 . . O
-US
-compatibility
-Nationwide
-on
-all
+US NNP O
+compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -1577,22 +1577,22 @@ glass
 32GB
 Internal
 memory
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 and
-Micro
-SD
-up
-to
-64GB
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
 13MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 with RP O
-LED
-flash
-and
+LED NNP O
+flash NNP O
+and CC O
 5MP
 Selfie
 Camera
@@ -1620,18 +1620,18 @@ GPU NNP O
 4G
 LTE
 2/4/7
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-band:
-US
-compatibility
-Nationwide
-on
-all
+Quad NNP O
+band: NNP O
+US NNP O
+compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -2159,8 +2159,8 @@ Glass
 Internal
 Memory:
 32GB
-4GB
-RAM
+4GB CD B-RAM
+RAM NNP O
 . . O
 Android
 v5.1.1
@@ -2405,8 +2405,8 @@ Internal
 Memory:
 32GB
 . . O
-GB
-RAM
+GB CD B-RAM
+RAM NNP O
 . . O
 This
 cell
@@ -2576,15 +2576,15 @@ Internal
 Memory:
 16GB
 storage
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 . . O
 microSD
-Slot
-Expandable
-up
-to
-64GB
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
+64GB CD O
 . . O
 Unlocked VBN O
 cell
@@ -2805,8 +2805,8 @@ Snapdragon
 quad-core
 processor NN O
 AND
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 32GB
 ROM
 user
@@ -2913,8 +2913,8 @@ GSM NNP B-CTY
 Unlocked VBN O
 - - O
 16GB
-+2GB
-RAM
++2GB CD B-RAM
+RAM NNP O
 - - O
 Dark
 Blue
@@ -2931,7 +2931,7 @@ Lollipop NNP I-TSW
 HD
 Display
 with RP O
-BLU
+BLU NNP O
 infinite
 View
 IPS
@@ -2948,19 +2948,19 @@ pixels
 Camera
 and
 5MP
-Front
-Camera
+Front RP O
+Camera NN O
 . . O
 16GB
 Internal
 Memory
-2GB
-RAM
-Micro
-SD
-up
-to
-64GB
+2GB CD B-RAM
+RAM NNP O
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 Qualcomm
 Snapdragon
 410
@@ -2978,18 +2978,18 @@ GPU NNP O
 4G
 LTE
 2/4/7/12/17
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-Band:
-US
-Compatibility
-Nationwide
-on
-all
+Quad NNP O
+Band: NNP O
+US NNP O
+Compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -3028,22 +3028,22 @@ Glass
 16GB
 Internal
 memory
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 and
-Micro
-SD
-up
-to
-64GB
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
 13MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 and
 5MP
-Front
-Camera
+Front RP O
+Camera NN O
 . . O
 PDAF
 technology
@@ -3065,18 +3065,18 @@ GPU NNP O
 4G
 LTE
 2/4/7/12/17
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-band:
-US
-compatibility
-Nationwide
-on
-all
+Quad NNP O
+band: NNP O
+US NNP O
+compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -3309,10 +3309,10 @@ ROM
 RAM
 and
 microSD
-Slot
-Expandable
-up
-to
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
 32GB
 . . O
 Unlocked VBN O
@@ -3396,18 +3396,18 @@ Android
 5.0
 Lollipop
 . . O
-8GB
+8GB CD B-HRD
 internal
 storage
-1GB
-RAM
+1GB CD B-RAM
+RAM NNP O
 with RP O
-Micro
-SD
+Micro JJ O
+SD NNP O
 Slot
-up
-to
-64GB
+up RP O
+to RP O
+64GB CD O
 . . O
 1.3 CD B-PCS
 GHz NNP I-PCS
@@ -3420,11 +3420,11 @@ Mail
 GPU NNP O
 . . O
 5MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 VGA
-Front
-Camera
+Front RP O
+Camera NN O
 . . O
 GSM NNP B-CTY
 Quad
@@ -3433,11 +3433,11 @@ Band
 HSPA+
 850/1700/1900
 . . O
-US
-Compatibility
-Nationwide
-on
-all
+US NNP O
+Compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -3455,7 +3455,7 @@ Galaxy
 Grand
 Prime
 DUOS
-8GB
+8GB CD B-HRD
 Factory
 Unlocked VBN O
 GSM NNP B-CTY
@@ -3531,19 +3531,19 @@ Camera
 . . O
 Internal
 Memory:
-8GB
-1GB
-RAM
+8GB CD B-HRD
+1GB CD B-RAM
+RAM NNP O
 . . O
-micro
-SD
-Slot
-Expandable
-up
-to
-64GB
+micro JJ O
+SD NNP O
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
+64GB CD O
 . . O
-5-Inch
+5-Inch CD B-SCR
 TFT
 Display
 Capacitive
@@ -3595,17 +3595,17 @@ Camera
 . . O
 Internal
 Memory:
-8GB
-1GB
-RAM
+8GB CD B-HRD
+1GB CD B-RAM
+RAM NNP O
 . . O
-micro
-SD
-Slot
-Expandable
-up
-to
-64GB
+micro JJ O
+SD NNP O
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
+64GB CD O
 " '' O
 
 . . O
@@ -3809,8 +3809,8 @@ USB
 16GB
 Internal
 memory
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 1.3 CD B-PCS
 GHz NNP I-PCS
 Octa-Core
@@ -3822,16 +3822,16 @@ T720
 GPU NNP O
 . . O
 13MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 with RP O
 Phase
 Detection
 Autofocus
 and
 5MP
-Front
-Camera
+Front RP O
+Camera NN O
 with RP O
 LED
 flash
@@ -3839,18 +3839,18 @@ flash
 4G
 LTE
 2/4/7/12/17
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-band:
-US
-compatibility
-Nationwide
-on
-all
+Quad NNP O
+band: NNP O
+US NNP O
+compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -3930,8 +3930,8 @@ Bands
 internal
 Memory:
 32GB
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 not
 expandable
 . . O
@@ -4016,68 +4016,68 @@ ARM NNP O
 Mali-400 NNP O
 GPU NNP O
 . . O
-8GB
-Internal
-Memory
-1GB
-RAM
-Micro
-SD
-up
-to
-64GB
+8GB CD B-HRD
+Internal JJ O
+Memory NN O
+1GB CD B-RAM
+RAM NNP O
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
-5.0""
-IPS
-Display:
-5MP
-Autofocus
-Main
-Camera
+5.0"" CD B-SCR
+IPS NNP O
+Display: NNP O
+5MP CD B-CAM
+Autofocus NNP O
+Main JJ O
+Camera NNP O
 with RP O
-LED
-Flash
-and
-5MP
-Autofocus
-Front
-Camera
+LED NNP O
+Flash NNP O
+and CC O
+5MP CD B-CAM
+Autofocus NNP O
+Front RP O
+Camera NN O
 with RP O
-LED
-Flash
-and
-BLU
-Final
-Touch
-Software
+LED NNP O
+Flash NNP O
+and CC O
+BLU NNP O
+Final NNP O
+Touch NNP O
+Software NN O
 . . O
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-Band:
-US
-Compatibility
-Nationwide
-on
-all
+Quad NNP O
+Band: NNP O
+US NNP O
+Compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
-Networks
-including
-AT&amp;T
-T-Mobile
-Cricket
-MetroPCS
-Straight
-Talk
-USA
-Pure
-Talk
-USA
-and
-others
+Networks NNS O
+including VBG O
+AT&amp;T NNP O
+T-Mobile NNP O
+Cricket NNP O
+MetroPCS NNP O
+Straight NNP O
+Talk NNP O
+USA NNP O
+Pure NNP O
+Talk NNP O
+USA NNP O
+and CC O
+others PRP O
 " '' O
 
 
@@ -4257,14 +4257,14 @@ Internal
 Memory:
 16GB
 storage
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 . . O
 microSD
-Slot
-Expandable
-up
-to
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
 128GB
 . . O
 5.1""
@@ -4483,68 +4483,68 @@ ARM NNP O
 Mali-400 NNP O
 GPU NNP O
 . . O
-8GB
-Internal
-Memory
-1GB
-RAM
-Micro
-SD
-up
-to
-64GB
+8GB CD B-HRD
+Internal JJ O
+Memory NN O
+1GB CD B-RAM
+RAM NNP O
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
-5.0""
-IPS
-Display:
-5MP
-Autofocus
-Main
-Camera
+5.0"" CD B-SCR
+IPS NNP O
+Display: NNP O
+5MP CD B-CAM
+Autofocus NNP O
+Main JJ O
+Camera NNP O
 with RP O
-LED
-Flash
-and
-5MP
-Autofocus
-Front
-Camera
+LED NNP O
+Flash NNP O
+and CC O
+5MP CD B-CAM
+Autofocus NNP O
+Front RP O
+Camera NN O
 with RP O
-LED
-Flash
-and
-BLU
-Final
-Touch
-Software
+LED NNP O
+Flash NNP O
+and CC O
+BLU NNP O
+Final NNP O
+Touch NNP O
+Software NN O
 . . O
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-Band:
-US
-Compatibility
-Nationwide
-on
-all
+Quad NNP O
+Band: NNP O
+US NNP O
+Compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
-Networks
-including
-AT&amp;T
-T-Mobile
-Cricket
-MetroPCS
-Straight
-Talk
-USA
-Pure
-Talk
-USA
-and
-others
+Networks NNS O
+including VBG O
+AT&amp;T NNP O
+T-Mobile NNP O
+Cricket NNP O
+MetroPCS NNP O
+Straight NNP O
+Talk NNP O
+USA NNP O
+Pure NNP O
+Talk NNP O
+USA NNP O
+and CC O
+others PRP O
 " '' O
 
 
@@ -4685,7 +4685,7 @@ iPhone
 . . O
 MD440LL/A
 - - O
-8GB
+8GB CD B-HRD
 Smartphone NN O
 - - O
 White JJ O
@@ -4745,7 +4745,7 @@ supported
 carrier
 ONLY.
 . . O
-8GB
+8GB CD B-HRD
 internal
 storage
 - - O
@@ -5056,7 +5056,7 @@ B8
 LTE800
 B20
 . . O
-5-inch
+5-inch CD B-SCR
 IPS
 LCD
 Multi-Touchscreen
@@ -5101,15 +5101,15 @@ Camera
 . . O
 Internal
 Memory:
-8GB
-1GB
-RAM
+8GB CD B-HRD
+1GB CD B-RAM
+RAM NNP O
 . . O
 microSD
-Slot
-Expandable
-up
-to
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
 128GB
 dedicated
 slot
@@ -5119,8 +5119,8 @@ ZenFone
 Laser
 Unlocked VBN O
 Smartphone NN O
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 32GB
 Storage
 " '' O
@@ -5142,8 +5142,8 @@ T-Mobile
 Powerful
 performance
 with RP O
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 and
 Qualcomm
 Octa-Core
@@ -5163,8 +5163,8 @@ Glass
 Rear
 and
 5MP
-Front
-Camera
+Front RP O
+Camera NN O
 . . O
 Equipped
 with RP O
@@ -5198,10 +5198,10 @@ Moto
 generation
 Unlocked VBN O
 Cellphone
-8GB
+8GB CD B-HRD
 Black
 Brilliant
-5-inch
+5-inch CD B-SCR
 HD
 display
 and
@@ -5328,22 +5328,22 @@ glass
 32GB
 Internal
 memory
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 and
-Micro
-SD
-up
-to
-64GB
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
 13MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 with RP O
-LED
-flash
-and
+LED NNP O
+flash NNP O
+and CC O
 5MP
 Selfie
 Camera
@@ -5371,18 +5371,18 @@ GPU NNP O
 4G
 LTE
 2/4/7
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-band:
-US
-compatibility
-Nationwide
-on
-all
+Quad NNP O
+band: NNP O
+US NNP O
+compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -5517,14 +5517,14 @@ Internal
 Memory:
 16GB
 storage
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 . . O
 microSD
-Slot
-Expandable
-up
-to
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
 128GB
 . . O
 5.1""
@@ -5655,8 +5655,8 @@ Internal
 16
 GB
 . . O
-GB
-RAM
+GB CD B-RAM
+RAM NNP O
 . . O
 CAMERA:
 Primary
@@ -5772,9 +5772,9 @@ DualCore
 Processor NN O
 1.2GHz
 CPU
-8GB
-Internal
-Memory
+8GB CD B-HRD
+Internal JJ O
+Memory NN O
 Latest
 Android
 4.4
@@ -5842,8 +5842,8 @@ Internal
 Memory
 32GB
 with RP O
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 . . O
 16
 MP
@@ -5936,9 +5936,9 @@ DualCore
 Processor NN O
 1.2GHz
 CPU
-8GB
-Internal
-Memory
+8GB CD B-HRD
+Internal JJ O
+Memory NN O
 Latest
 Android
 4.4
@@ -6339,19 +6339,19 @@ quick
 min
 charge.
 . . O
-5.0""
+5.0"" CD B-SCR
 curved
 touch
 panel
 HD
 display
 8MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 . . O
 5MP
-Front
-Camera
+Front RP O
+Camera NN O
 with RP O
 built
 in
@@ -6370,16 +6370,16 @@ Processor NN O
 with RP O
 Mali-400 NNP O
 GPU NNP O
-8GB
-Internal
-memory
-1GB
-RAM
-Micro
-SD
-up
-to
-64GB
+8GB CD B-HRD
+Internal JJ O
+Memory NN O
+1GB CD B-RAM
+RAM NNP O
+Micro JJ O
+SD NNP O
+up RP O
+to RP O
+64GB CD O
 . . O
 GSM NNP B-CTY
 Quad
@@ -6388,11 +6388,11 @@ Band
 HSPA+
 850/1700/1900
 . . O
-US
-Compatibility
-Nationwide
-on
-all
+US NNP O
+Compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -6583,8 +6583,8 @@ Stabilization
 Internal
 Memory:
 32GB
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 not
 expandable
 
@@ -6618,12 +6618,12 @@ technology
 . . O
 8
 MP
-Main
-Camera
+Main JJ O
+Camera NNP O
 . . O
 2MP
-Front
-Camera
+Front RP O
+Camera NN O
 . . O
 MediaTek NNP O
 Quad NNP B-PCT
@@ -6634,29 +6634,29 @@ with RP O
 MALI
 400
 GPU NNP O
-8GB
-Internal
-Memory
-1GB
-RAM
-Micro
-SD
+8GB CD B-HRD
+Internal JJ O
+Memory NN O
+1GB CD B-RAM
+RAM NNP O
+Micro JJ O
+SD NNP O
 up
 to
 64GB.
 . . O
-4G
-HSPA+
-850/1700/1900/2100
+4G NNP B-CTY
+HSPA+ NNP I-CTY
+850/1700/1900/2100 NNP I-CTY
 . . O
 GSM NNP B-CTY
-Quad
-Band:
-US
-Compatibility
-Nationwide
-on
-all
+Quad NNP O
+Band: NNP O
+US NNP O
+Compatibility NN O
+Nationwide NN O
+on RP O
+all DT O
 GSM NNP B-CTY
 Networks
 including
@@ -6884,8 +6884,8 @@ Plus
 processor NN O
 with RP O
 . . O
-GB
-RAM
+GB CD B-RAM
+RAM NNP O
 16GB
 Internal
 Memory
@@ -7017,7 +7017,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -10572,7 +10572,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -11435,7 +11435,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -12049,7 +12049,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -12672,7 +12672,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -13570,7 +13570,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -14038,8 +14038,8 @@ Yes
 Asus
 Zenfone
 Max
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 Specifications
 . . O
 .
@@ -14489,7 +14489,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -14764,7 +14764,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -15959,7 +15959,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -16532,7 +16532,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -17743,7 +17743,7 @@ Storage
 .
 Internal
 . . O
-8GB
+8GB CD B-HRD
 . . O
 .
 RAM
@@ -18249,8 +18249,8 @@ White JJ O
 Color
 16GB
 Storage
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 US
 Warranty"
 " '' O
@@ -19803,9 +19803,9 @@ Card)
 Max
 Storage
 Expansion
-Up
-to
-64GB
+Up RP O
+to RP O
+64GB CD O
 Connectivity
 . . O
 Wi-Fi
@@ -21611,7 +21611,7 @@ Yes
 Main
 Display
 Size
-5.0""
+5.0"" CD B-SCR
 Main
 Display
 Resolution
@@ -22695,8 +22695,8 @@ GHz
 Cortex-A57
 RAM
 . . O
-GB
-RAM
+GB CD B-RAM
+RAM NNP O
 Built-in
 Storage
 32GB
@@ -22829,7 +22829,7 @@ XT1032
 Part
 Number
 XT1032
-8GB
+8GB CD B-HRD
 BLK
 Network
 . . O
@@ -22954,7 +22954,7 @@ RAM
 1GB
 Built-in
 Storage
-8GB
+8GB CD B-HRD
 Connectivity
 . . O
 Wi-Fi
@@ -23198,9 +23198,9 @@ Expansion
 Slot
 Type
 microSD
-up
-to
-64GB
+up RP O
+to RP O
+64GB CD O
 Connectivity
 . . O
 Wi-Fi
@@ -23904,7 +23904,7 @@ Smartphone NN O
 Model
 . . O
 Brand
-Blu
+Blu NNP O
 Series
 Studio
 Model
@@ -24583,7 +24583,7 @@ LG
 G4
 Beat
 H736P
-8GB
+8GB CD B-HRD
 Octa-core
 Dual
 SIM
@@ -24639,7 +24639,7 @@ RAM
 1.5GB
 Built-in
 Storage
-8GB
+8GB CD B-HRD
 Battery
 . . O
 Talk
@@ -24766,8 +24766,8 @@ Expansion
 Slot
 Type
 Removable
-Micro
-SD
+Micro JJ O
+SD NNP O
 Card
 Max
 Storage
@@ -25092,7 +25092,7 @@ Phone
 Model
 . . O
 Brand
-Blu
+Blu NNP O
 Series
 Studio
 . . O
@@ -25203,7 +25203,7 @@ RAM
 GB
 Built-in
 Storage
-8GB
+8GB CD B-HRD
 Expansion
 Slot
 Type
@@ -25213,9 +25213,9 @@ Card)
 Max
 Storage
 Expansion
-Up
-to
-64GB
+Up RP O
+to RP O
+64GB CD O
 Connectivity
 . . O
 Wi-Fi
@@ -25864,8 +25864,8 @@ QUAD NNP B-PCT
 Core NNP I-PCT
 Android
 4.2
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 DUAL
 SIM
 3G
@@ -26058,7 +26058,7 @@ Yes
 Main
 Display
 Size
-5.0""
+5.0"" CD B-SCR
 Main
 Display
 Resolution
@@ -26216,7 +26216,7 @@ D070
 Model
 . . O
 Brand
-Blu
+Blu NNP O
 Series
 Dash
 . . O
@@ -26706,15 +26706,15 @@ Processor NN O
 Internal
 Memory:
 16GB
-1GB
-RAM
+1GB CD B-RAM
+RAM NNP O
 . . O
 microSD
-Slot
-Expandable
-up
-to
-64GB
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
+64GB CD O
 Wi-Fi
 802.11
 b/g/n
@@ -26969,9 +26969,9 @@ graphics
 Graphics
 Internal
 Memory:
-8GB
-1GB
-RAM
+8GB CD B-HRD
+1GB CD B-RAM
+RAM NNP O
 Wi-Fi
 802.11
 a/b/g/n
@@ -28236,7 +28236,7 @@ of
 full
 Lamination
 and
-BLU
+BLU NNP O
 Infinate
 View
 
@@ -28363,8 +28363,8 @@ and
 the
 . . O
 MP
-front
-camera
+front RP O
+camera NN O
 are
 all
 youre
@@ -28522,7 +28522,7 @@ full
 metal
 unibody
 design
-5-inch
+5-inch CD B-SCR
 HD
 Super
 AMOLED
@@ -29151,8 +29151,8 @@ not
 expandable
 Internal
 memory:
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 Wi-Fi:
 802.11
 a/b/g/n/ac
@@ -29877,7 +29877,7 @@ pixels
 autofocus
 Integrated
 memory:
-8GB
+8GB CD B-HRD
 256
 MB
 RAM
@@ -29912,7 +29912,7 @@ Color:
 BLACK
 Model:
 3GS
-8GB
+8GB CD B-HRD
 Included
 items:
 Charger
@@ -29968,7 +29968,7 @@ with RP O
 internal
 storage
 of
-8GB
+8GB CD B-HRD
 that
 can
 be
@@ -30089,15 +30089,15 @@ Mali-400MP2
 Graphics
 Internal
 Memory:
-8GB
+8GB CD B-HRD
 768MB
 RAM
 . . O
 microSD
-Slot
-Expandable
-up
-to
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
 128GB
 Wi-Fi
 802.11
@@ -30852,7 +30852,7 @@ new.
 features.
 Phone
 features
-8GB
+8GB CD B-HRD
 of
 storage
 space
@@ -31669,15 +31669,15 @@ Snapdragon
 Internal
 Memory:
 16GB
-1.5GB
-RAM
+1.5GB CD B-RAM
+RAM NNP O
 . . O
 microSD
-Slot
-Expandable
-up
-to
-64GB
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
+64GB CD O
 Wi-Fi
 802.11
 a/b/g/n
@@ -31904,8 +31904,8 @@ Internal
 Memory:
 16GB
 storage
-1GB
-RAM
+1GB CD B-RAM
+RAM NNP O
 DDR3
 Wi-Fi
 802.11
@@ -32519,8 +32519,8 @@ LED
 flash
 Integrated
 memory:
-2GB
-RAM
+2GB CD B-RAM
+RAM NNP O
 Operating
 system:
 Android
@@ -32812,8 +32812,8 @@ has
 . . O
 5
 MP
-front
-camera
+front RP O
+camera NN O
 with RP O
 an
 ultra-wide
@@ -32846,7 +32846,7 @@ HSDPA
 1900
 . . O
 2100
-5-inch
+5-inch CD B-SCR
 TFT
 Display
 Capacitive
@@ -32886,16 +32886,16 @@ Adreno
 Graphics
 Internal
 Memory:
-8GB
-1GB
-RAM
+8GB CD B-HRD
+1GB CD B-RAM
+RAM NNP O
 . . O
 microSD
-Slot
-Expandable
-up
-to
-64GB
+Slot NN O
+Expandable JJ O
+up RP O
+to TO O
+64GB CD O
 Wi-Fi
 802.11
 b/g/n
@@ -33034,8 +33034,8 @@ by.
 1.2GHz
 processor NN O
 alongside
-1GB
-RAM
+1GB CD B-RAM
+RAM NNP O
 and
 8-megapixel
 rear
@@ -33098,9 +33098,9 @@ Adreno
 Graphics
 Internal
 Memory:
-8GB
-1GB
-RAM
+8GB CD B-HRD
+1GB CD B-RAM
+RAM NNP O
 . . O
 microSD
 Slot
@@ -33386,8 +33386,8 @@ Internal
 Memory:
 32GB
 storage
-1GB
-RAM
+1GB CD B-RAM
+RAM NNP O
 DDR3
 Wi-Fi
 802.11
@@ -33711,8 +33711,8 @@ AirPlay
 media
 streaming
 8-megapixel
-main
-camera
+main JJ O
+camera NNP O
 plus
 1.2MP
 HD
@@ -33813,7 +33813,7 @@ packed
 into
 this
 beautiful
-5.0""
+5.0"" CD B-SCR
 device
 built
 for
@@ -34065,8 +34065,8 @@ AirPlay
 media
 streaming
 8-megapixel
-main
-camera
+main JJ O
+camera NNP O
 plus
 1.2MP
 HD
@@ -34601,7 +34601,7 @@ sports
 . . O
 bright
 7.0""
-BLU
+BLU NNP O
 Infinite
 View
 IPS
@@ -34632,7 +34632,7 @@ Core NNP I-PCT
 and
 Paired
 with RP O
-8GB
+8GB CD B-HRD
 of
 internal
 memory
@@ -35200,7 +35200,7 @@ the
 DIVA
 Series
 by
-BLU
+BLU NNP O
 the
 gorgeous
 DIVA
@@ -35675,7 +35675,7 @@ and
 family
 with RP O
 the
-BLU
+BLU NNP O
 Dash
 . . O
 D050U
@@ -35738,8 +35738,8 @@ dual-core
 1.0GHz
 processor NN O
 with RP O
-1GB
-RAM
+1GB CD B-RAM
+RAM NNP O
 and
 4GB
 internal
@@ -35880,7 +35880,7 @@ LG
 G3
 Beat
 D722J
-8GB
+8GB CD B-HRD
 GSM NNP B-CTY
 Smartphone.
 
@@ -36330,11 +36330,11 @@ information..
 . . O
 .
 The
-BLU
+BLU NNP O
 Studio
 . . O
 5+5
-8GB
+8GB CD B-HRD
 D890u
 GSM NNP B-CTY
 Android
@@ -36364,7 +36364,7 @@ choose
 your
 favorite.
 The
-BLU
+BLU NNP O
 Studio
 smartphone NN O
 unlocked
@@ -36396,7 +36396,7 @@ This
 dual-sim
 smartphone NN O
 has
-8gb
+8gb CD B-HRD
 of
 internal
 memory
@@ -36424,11 +36424,11 @@ hours
 between
 charges.
 The
-BLU
+BLU NNP O
 Studio
 . . O
 5+5
-8GB
+8GB CD B-HRD
 D890u
 GSM NNP B-CTY
 Android
@@ -36485,7 +36485,7 @@ information..
 . . O
 .
 The
-BLU
+BLU NNP O
 Studio
 6.0
 HD
@@ -36573,9 +36573,9 @@ eight
 megapixel
 camera
 with RP O
-LED
-flash
-and
+LED NNP O
+flash NNP O
+and CC O
 . . O
 front
 two
@@ -36589,7 +36589,7 @@ on
 the
 go.
 The
-BLU
+BLU NNP O
 dual-SIM
 smartphone NN O
 comes
@@ -36649,7 +36649,7 @@ information..
 . . O
 .
 The
-BLU
+BLU NNP O
 Dash
 JR
 . . O
@@ -37436,8 +37436,8 @@ It
 also
 comes
 with RP O
-4GB
-ram
+4GB CD B-RAM
+ram NNP O
 providing
 plenty
 of
@@ -37945,7 +37945,7 @@ the
 go
 with RP O
 the
-BLU
+BLU NNP O
 Diva
 Flex
 T370X
@@ -38258,7 +38258,7 @@ Apple
 iPhone
 5C
 locked
-8GB
+8GB CD B-HRD
 comes
 with RP O
 assisted
@@ -38370,7 +38370,7 @@ information..
 . . O
 .
 The
-BLU
+BLU NNP O
 Jenny
 TV
 2.8
@@ -39081,7 +39081,7 @@ busy
 lifestyle
 with RP O
 the
-BLU
+BLU NNP O
 Dash
 . . O
 Plus
@@ -39150,7 +39150,7 @@ Samsung
 Galaxy
 J5
 J500M
-8GB
+8GB CD B-HRD
 GSM NNP B-CTY
 Android
 Smartphone.
@@ -39179,7 +39179,7 @@ unlocked
 smartphone NN O
 features
 . . O
-5.0""
+5.0"" CD B-SCR
 Super
 AMOLED
 capacitive
@@ -39196,7 +39196,7 @@ An
 internal
 memory
 of
-8GB
+8GB CD B-HRD
 provides
 ample
 storage.
@@ -39368,7 +39368,7 @@ the
 go
 with RP O
 the
-BLU
+BLU NNP O
 DASH
 . . O
 D070X
@@ -39433,7 +39433,7 @@ the
 Apple
 iPhone
 4S
-8GB
+8GB CD B-HRD
 GSM NNP B-CTY
 Smartphone.
 The
@@ -40263,7 +40263,7 @@ information..
 . . O
 .
 The
-BLU
+BLU NNP O
 Diva
 II
 T275T
@@ -40403,7 +40403,7 @@ busy
 lifestyle
 with RP O
 the
-BLU
+BLU NNP O
 Studio
 . . O
 5+5
@@ -40455,7 +40455,7 @@ rear
 cameras.
 With RP O
 this
-8GB
+8GB CD B-HRD
 smartphone NN O
 you
 can
@@ -40468,7 +40468,7 @@ watch
 videos
 on
 the
-5.0""
+5.0"" CD B-SCR
 capacitive
 multi-touchscreen.
 Bluetooth
@@ -40510,7 +40510,7 @@ are
 included
 with RP O
 this
-BLU
+BLU NNP O
 smartphone."
 
 . . O
@@ -40807,8 +40807,8 @@ ROM
 internal
 memory
 and
-3GB
-RAM
+3GB CD B-RAM
+RAM NNP O
 along
 with RP O
 the
@@ -41061,9 +41061,9 @@ memory
 VGA
 camera
 with RP O
-LED
-flash
-and
+LED NNP O
+flash NNP O
+and CC O
 Bluetooth
 connectivity.
 
@@ -41170,7 +41170,7 @@ jack
 FM
 radio
 and
-8GB
+8GB CD B-HRD
 of
 internal
 memory
@@ -41485,12 +41485,12 @@ information..
 . . O
 .
 The
-BLU
+BLU NNP O
 Energy
 . . O
 Plus
 E030u
-8GB
+8GB CD B-HRD
 GSM NNP B-CTY
 Android
 Smartphone NN O
@@ -41595,12 +41595,12 @@ right
 away.
 With RP O
 this
-BLU
+BLU NNP O
 Energy
 . . O
 Plus
 E030u
-8GB
+8GB CD B-HRD
 GSM NNP B-CTY
 Android
 Smartphone NN O
@@ -41667,7 +41667,7 @@ busy
 life
 with RP O
 the
-BLU
+BLU NNP O
 Studio
 . . O
 HD
