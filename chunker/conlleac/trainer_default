@@ -861,7 +861,7 @@ internal JJ O
 storage NN O
 - - O
 . . O
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A8 NNP O
 CPU NNP O
 - - O
@@ -1133,80 +1133,80 @@ charging: VBG O
 in RP O
 30 CD O
 min NN O
-Quick
-Charge
-2.0
+Quick JJ O
+Charge NN O
+2.0 CD O
 . . O
-Wireless
+Wireless NNS O
 charging VBG O
-Qi/PMA
+Qi/PMA NNP O
 . . O
-market
-dependent;
-ANT+
-support;
-S;
-Voice
-natural
-language
-commands
+market NN O
+dependent; JJ O
+ANT+ NNP O
+support; NN O
+S; NNP O
+Voice NN O
+natural JJ O
+language NN O
+commands NNS O
 and CC O
-dictation;
-OneDrive
-115
-GB
-cloud
+dictation; NN O
+OneDrive NNP O
+115 CD O
+GB NNP O
+cloud NNP O
 storage NN O
 . . O
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
-mic;
-MP4/DivX/XviD/WMV/H.264
-player;
+dedicated VBD O
+mic; NN O
+MP4/DivX/XviD/WMV/H.264 NNP O
+player; NN O
 MP3/WAV/WMA/eAAC+/FLAC
-player;
-Photo/video
-editor;
-Document
-editor.
+player; NN O
+Photo/video NN O
+editor; NN O
+Document NN O
+editor. NN O
 . . O
 Corning JJ O
 Gorilla NNP O
 Glass NN O
-back
-panel;
+back RP O
+panel; NN O
 Super JJ O
 AMOLED NNP O
 capacitive JJ O
-touchscreen
-16M
-colors;
-5.5
-inches
-~76.1%
-screen-to-body
-ratio
+touchscreen NN O
+16M CD O
+colors; NNS O
+5.5 CD B-SCR
+inches NNS I-SCR
+~76.1% CD O
+screen-to-body NNP O
+ratio NN O
 . . O
 Dual-core NNP O
-2.15
-GHz CD B-PCS
-Kryo
+2.15 CD B-PCS
+GHz NNP I-PCS
+Kryo NNP O
 &amp; CC O
 dual-core NNP O
-1.6
-GHz CD B-PCS
-Kryo;
+1.6 CD B-PCS
+GHz NNP I-PCS
+Kryo; NNP O
 Quad-core NNP O
-2.3
-GHz CD B-PCS
-Mongoose
+2.3 CD B-PCS
+GHz CD I-PCS
+Mongoose NNP O
 . . O
 quad-core NNP O
-1.6
-GHz CD B-PCS
+1.6 CD B-PCS
+GHz NNP I-PCS
 Cortex-A53 NNP O
 . . O
 Unlocked VBN O
@@ -1226,15 +1226,15 @@ well RBR O
 as TO O
 with RP O
 GSM NNP B-CTY
-SIM
-cards
-e.g.
-H20
-Straight
-Talk
+SIM NNP O
+cards NNS O
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 . . O
 Unlocked VBN O
@@ -1249,12 +1249,12 @@ Carriers NNS O
 like IN O
 Sprint NNP O
 Verizon NNP O
-Boost
+Boost NNP O
 or CC O
-Virgin.
+Virgin. NNP O
 
-Advance
-5.0
+Advance NNP O
+5.0 CD O
 - - O
 Unlocked VBN O
 Dual JJ B-SIM
@@ -1297,17 +1297,17 @@ with RP O
 LED NNP O
 flash NNP O
 and CC O
-2MP
+2MP CD B-CAM
 Camera NN O
 with RP O
 LED NNP O
 flash NNP O
 . . O
-4GB
+4GB CD B-HRD
 Internal JJ O
 memory NN O
-768MB
-RAM
+768MB CD B-RAM
+RAM NNP O
 Micro JJ O
 SD NNP O
 up RP O
@@ -1315,11 +1315,11 @@ to RP O
 64GB CD O
 . . O
 GSM NNP B-CTY
-Quad
-band
-4G
-HSPA+
-850/1700/1900
+Quad NNP I-CTY
+band NNP I-CTY
+4G CD I-CTY
+HSPA+ NNP I-CTY
+850/1700/1900 CD I-CTY
 . . O
 US NNP O
 compatibility NN O
@@ -1342,8 +1342,8 @@ and CC O
 others WP O
 " '' O
 
-Advance
-5.0
+Advance NNP O
+5.0 CD O
 - - O
 Unlocked VBN O
 Dual JJ B-SIM
@@ -1386,17 +1386,17 @@ with RP O
 LED NNP O
 flash NNP O
 and CC O
-2MP
+2MP CD B-CAM
 Camera NN O
 with RP O
 LED NNP O
 flash NNP O
 . . O
-4GB
+4GB CD B-HRD
 Internal JJ O
 memory NN O
-768MB
-RAM
+768MB CD B-RAM
+RAM NNP O
 Micro JJ O
 SD NNP O
 up RP O
@@ -1404,11 +1404,11 @@ to RP O
 64GB CD O
 . . O
 GSM NNP B-CTY
-Quad
-band
-4G
-HSPA+
-850/1700/1900
+Quad NNP B-CTY
+band NNP I-CTY
+4G CD I-CTY
+HSPA+ NNP I-CTY
+850/1700/1900 CD I-CTY
 . . O
 US NNP O
 compatibility NN O
@@ -1432,64 +1432,64 @@ others WP O
 " '' O
 
 5X NNP O
-Metal
-Body
+Metal JJ O
+Body NN O
 Unlocked VBN O
 Smartphone NN O
 - - O
-Grey
+Grey JJ O
 16GB CD B-HRD
-U.S.
+U.S. NNP O
 Warranty NN O
 
 Unlocked VBN O
 Dual JJ B-SIM
 SIM NNP I-SIM
-LTE
+LTE NNP B-CTY
 smartphone NN O
 with RP O
-three
+three CD O
 card NN O
-slots.
-Supports
-nano-sim
-micro-SIM
+slots. NNS O
+Supports VBS O
+nano-sim NNP B-SIM
+micro-SIM NNP B-SIM
 and CC O
 . . O
 microSD NNP O
 card NN O
-up
-to
-128GB.
-Works
+up RP O
+to TO O
+128GB. CD O
+Works VBS O
 with RP O
 AT&amp;T NNP O
 and CC O
 T-Mobile NNP O
-Networks.
+Networks. NNS O
 . . O
-Sleek
-robust
+Sleek JJ O
+robust NN O
 housing VBG O
-crafted
-from
-aircraft-grade
-aluminum
-made
+crafted JJ O
+from RP O
+aircraft-grade NN O
+aluminum NN O
+made VBP O
 with RP O
-four
-metal
+four CD O
+metal NN O
 finishing VBG O
-processes.
+processes. NNS O
 . . O
 An DT O
-accurate
+accurate JJ O
 fast JJ O
 fingerprint NN O
 sensor NN O
-improves
+improves NNS O
 with RP O
-time
+time NN O
 and CC O
 unlocks
 in RP O
@@ -1560,7 +1560,7 @@ Aesthetically
 engineered
 full JJ O
 body
-metal
+metal NN O
 design
 5.5"" CD B-SCR
 display NN O
@@ -1731,7 +1731,7 @@ or CC O
 SIM
 card.
 Only
-select
+select VB O
 sellers
 who
 maintain
@@ -1806,7 +1806,7 @@ Nexus NNP O
 64
 GB
 Graphite
-U.S.
+U.S. NNP O
 Version:
 Nin-A12
 - - O
@@ -1818,13 +1818,13 @@ smartphone NN O
 w/ RP O
 4G NNP B-CTY
 LTE NNP I-CTY
-U.S.
+U.S. NNP O
 Warranty NN O
 
 All-metal
 design
 Unlocked VBN O
-LTE
+LTE NNP B-CTY
 smartphone NN O
 with RP O
 . . O
@@ -1907,7 +1907,7 @@ sensor NN O
 placed
 on RP O
 the DT O
-back
+back RP O
 to
 complement
 the DT O
@@ -1925,7 +1925,7 @@ lasting VBG O
 mAh
 battery NN O
 with RP O
-quick
+quick JJ O
 charging VBG O
 USB NNP O
 Type-C NNP O
@@ -1947,8 +1947,8 @@ Nexus NNP O
 - - O
 64
 GB
-Aluminum
-U.S.
+Aluminum NN O
+U.S. NNP O
 Version:
 Nin-A12
 - - O
@@ -1960,13 +1960,13 @@ smartphone NN O
 w/ RP O
 4G NNP B-CTY
 LTE NNP I-CTY
-U.S.
+U.S. NNP O
 Warranty NN O
 
 All-metal
 design
 Unlocked VBN O
-LTE
+LTE NNP B-CTY
 smartphone NN O
 with RP O
 . . O
@@ -2049,7 +2049,7 @@ sensor NN O
 placed
 on RP O
 the DT O
-back
+back RP O
 to
 complement
 the DT O
@@ -2067,7 +2067,7 @@ lasting VBG O
 mAh
 battery NN O
 with RP O
-quick
+quick JJ O
 charging VBG O
 USB NNP O
 Type-C NNP O
@@ -2119,7 +2119,7 @@ Platinum
 . . O
 2100
 4G:
-LTE
+LTE NNP B-CTY
 700
 . . O
 850
@@ -2167,12 +2167,12 @@ v5.1.1
 Lollipop
 Quad-Core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-Core NNP O
 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 Processor NN O
 Chipset: NNP O
@@ -2213,7 +2213,7 @@ with RP O
 VERIZON NNP O
 SPRINT NNP O
 NEXTEL
-BOOST
+BOOST NNP O
 VIRGIN
 etc
 or CC O
@@ -2278,7 +2278,7 @@ HSDPA
 . . O
 2100
 4G:
-LTE
+LTE NNP B-CTY
 700
 . . O
 5.7-inch
@@ -2300,7 +2300,7 @@ Bean
 upgradable JJ O
 Quad-Core NNP O
 1.9
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A15
 &amp; CC O
 Quad-Core NNP O
@@ -2338,15 +2338,15 @@ Display:
 Super JJ O
 AMOLED NNP O
 capacitive JJ O
-touchscreen
+touchscreen NN O
 16M
 colors
 - - O
 .1
 inches
 ~70.7%
-screen-to-body
-ratio
+screen-to-body NNP O
+ratio NN O
 - - O
 1440
 . . O
@@ -2360,12 +2360,12 @@ density
 CPU:
 Quad-core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 - - O
 Exynos
 7420
@@ -2473,7 +2473,7 @@ with RP O
 13
 MP
 Camera NN O
-Touchscreen
+Touchscreen NN O
 and CC O
 16
 GB
@@ -2500,7 +2500,7 @@ HSDPA
 2100
 4G
 Network:
-LTE
+LTE NNP B-CTY
 700
 MHz
 Class
@@ -2532,7 +2532,7 @@ v4.4.2
 KitKat
 Quad-Core NNP O
 1.9
-GHz CD B-PCS
+GHz NNP B-PCS
 Krait
 300
 Processor NN O
@@ -2603,15 +2603,15 @@ well RBR O
 as TO O
 with RP O
 GSM NNP B-CTY
-SIM
-cards
-e.g.
-H20
-Straight
-Talk
+SIM NNP O
+cards NNS O
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 . . O
 Unlocked VBN O
@@ -2626,9 +2626,9 @@ Carriers NNS O
 like IN O
 Sprint NNP O
 Verizon NNP O
-Boost
+Boost NNP O
 or CC O
-Virgin.
+Virgin. NNP O
 " '' O
 
 SM-G900V
@@ -2694,7 +2694,7 @@ HSDPA
 . . O
 2100
 4G:
-LTE
+LTE NNP B-CTY
 700
 MHz
 Class
@@ -2721,7 +2721,7 @@ v4.4.2 NNP I-TSW
 KitKat NNP I-TSW
 Quad-Core NNP O
 2.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Krait
 400
 Processor NN O
@@ -2817,12 +2817,12 @@ memory NN O
 Micro
 SD:
 128GB
-up
-to
+up RP O
+to TO O
 2TB
 . . O
-Quad
-Band
+Quad NNP B-CTY
+Band NNP I-CTY
 GSM;
 LTE:
 . . O
@@ -2875,15 +2875,15 @@ well RBR O
 as TO O
 with RP O
 GSM NNP B-CTY
-SIM
-cards
-e.g.
-H20
-Straight
-Talk
+SIM NNP O
+cards NNS O
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 . . O
 Unlocked VBN O
@@ -2898,15 +2898,15 @@ Carriers NNS O
 like IN O
 Sprint NNP O
 Verizon NNP O
-Boost
+Boost NNP O
 or CC O
-Virgin.
+Virgin. NNP O
 " '' O
 
 Life NN O
 XL
 - - O
-LTE
+LTE NNP B-CTY
 Smartphone NN O
 - - O
 GSM NNP B-CTY
@@ -2967,7 +2967,7 @@ Snapdragon NNP O
 . . O
 64-Bit CD O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 With RP O
@@ -2997,8 +2997,8 @@ AT&amp;T NNP O
 T-Mobile NNP O
 Cricket
 MetroPCS
-Straight
-Talk
+Straight RP O
+Talk VB O
 and CC O
 others.
 " '' O
@@ -3287,7 +3287,7 @@ Android
 v2.3
 Gingerbread
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Processor NN O
 . . O
 Megapixel NNP O
@@ -3336,7 +3336,7 @@ Carriers NNS O
 like IN O
 Sprint NNP O
 Verizon NNP O
-Boost
+Boost NNP O
 . . O
 Unlocked VBN O
 phones NNS O
@@ -3366,14 +3366,14 @@ Li-Ion
 mAh
 battery NN O
 Stand-by:
-Up
-to
+Up RP O
+to TO O
 600
 . . O
-Talk
+Talk VB O
 time:
-Up
-to
+Up RP O
+to TO O
 12
 . . O
 
@@ -3427,8 +3427,8 @@ Front RP O
 Camera NN O
 . . O
 GSM NNP B-CTY
-Quad
-Band
+Quad NNP B-CTY
+Band NNP I-CTY
 3G
 HSPA+
 850/1700/1900
@@ -3446,8 +3446,8 @@ T-Mobile NNP O
 Cricket
 Metro
 PCS
-Straight
-Talk
+Straight RP O
+Talk VB O
 and CC O
 others WP O
 
@@ -3500,7 +3500,7 @@ Kit
 Kat
 Quad-Core NNP O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 Processor NN O
 Chipset: NNP O
@@ -3565,15 +3565,15 @@ well RBR O
 as TO O
 with RP O
 GSM NNP B-CTY
-SIM
-cards
-e.g.
-H20
-Straight
-Talk
+SIM NNP O
+cards NNS O
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 . . O
 8 CD B-CAM
@@ -3615,7 +3615,7 @@ Unlocked VBN O
 Smartphone NN O
 32GB CD B-HRD
 Black JJ O
-U.S.
+U.S. NNP O
 Warranty NN O
 - - O
 XT1575
@@ -3629,10 +3629,10 @@ Edition
 is VB O
 unlocked
 and CC O
-works
+works VBS O
 on RP O
 all DT O
-major
+major JJ O
 networks NNS O
 . . O
 5.7""
@@ -3684,8 +3684,8 @@ TurboPower
 TM
 technology NN O
 for IN O
-up
-to
+up RP O
+to TO O
 10
 hours
 of
@@ -3740,7 +3740,7 @@ intended
 without
 unnecessary
 clutter
-from
+from RP O
 preloaded
 apps
 or CC O
@@ -3899,7 +3899,7 @@ Image NN O
 Stabilization NN O
 . . O
 4G:
-LTE
+LTE NNP B-CTY
 Cat6
 700
 . . O
@@ -3956,12 +3956,12 @@ v5.0.2
 Lollipop
 Quad-Core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 . . O
 Quad-Core NNP O
 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 Processor NN O
 Chipset: NNP O
@@ -3976,7 +3976,7 @@ with RP O
 VERIZON NNP O
 SPRINT NNP O
 NEXTEL
-BOOST
+BOOST NNP O
 VIRGIN
 etc
 or CC O
@@ -4121,7 +4121,7 @@ video NN O
 recording VBG O
 . . O
 Siri
-voice
+voice NN O
 assitant
 . . O
 iCloud
@@ -4183,13 +4183,13 @@ GSM NNP B-CTY
 SIM
 need
 cards
-e.g.
-H20
-Straight
-Talk
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 need
 to
@@ -4217,9 +4217,9 @@ CDMA NNP O
 Carriers NNS O
 like IN O
 Sprint NNP O
-Boost
+Boost NNP O
 or CC O
-Virgin.
+Virgin. NNP O
 . . O
 2G: CD O
 GSM NNP B-CTY
@@ -4238,7 +4238,7 @@ HSDPA
 . . O
 2100
 4G:
-LTE
+LTE NNP B-CTY
 700
 . . O
 850
@@ -4284,7 +4284,7 @@ v4.4.2 NNP I-TSW
 KitKat NNP I-TSW
 Quad-Core NNP O
 2.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Krait
 400
 Processor NN O
@@ -4460,7 +4460,7 @@ Smartphone NN O
 GSM NNP B-CTY
 Unlocked VBN O
 - - O
-Grey
+Grey JJ O
 " '' O
 Unlocked VBN O
 Dual JJ B-SIM
@@ -4598,10 +4598,10 @@ Built-in
 rechargeable
 lithium-ion
 battery.
-Talk
+Talk VB O
 time:
-Up
-to
+Up RP O
+to TO O
 . . O
 hours
 on RP O
@@ -4646,13 +4646,13 @@ Remote
 and CC O
 Mic
 Documentation.
-Nano-SIM
+Nano-SIM NNP B-SIM
 required
 not RP O
 included.
 Please
 obtain
-from
+from RP O
 service
 provider
 . . O
@@ -4750,7 +4750,7 @@ internal JJ O
 storage NN O
 - - O
 . . O
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A8 NNP O
 CPU NNP O
 - - O
@@ -4786,80 +4786,80 @@ charging: VBG O
 in RP O
 30 CD O
 min NN O
-Quick
-Charge
-2.0
+Quick JJ O
+Charge NN O
+2.0 CD O
 . . O
-Wireless
+Wireless NNS O
 charging VBG O
-Qi/PMA
+Qi/PMA NNP O
 . . O
-market
-dependent;
-ANT+
-support;
-S;
-Voice
-natural
-language
-commands
+market NN O
+dependent; JJ O
+ANT+ NNP O
+support; NN O
+S; NNP O
+Voice NN O
+natural JJ O
+language NN O
+commands NNS O
 and CC O
-dictation;
-OneDrive
-115
-GB
-cloud
+dictation; NN O
+OneDrive NNP O
+115 CD O
+GB NNP O
+cloud NNP O
 storage NN O
 . . O
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
-mic;
-MP4/DivX/XviD/WMV/H.264
-player;
+dedicated VBD O
+mic; NN O
+MP4/DivX/XviD/WMV/H.264 NNP O
+player; NN O
 MP3/WAV/WMA/eAAC+/FLAC
-player;
-Photo/video
-editor;
-Document
-editor.
+player; NN O
+Photo/video NN O
+editor; NN O
+Document NN O
+editor. NN O
 . . O
 Corning JJ O
 Gorilla NNP O
 Glass NN O
-back
-panel;
+back RP O
+panel; NN O
 Super JJ O
 AMOLED NNP O
 capacitive JJ O
-touchscreen
-16M
-colors;
+touchscreen NN O
+16M CD O
+colors; NNS O
 5.1
 inches
 ~72.1%
-screen-to-body
-ratio
+screen-to-body NNP O
+ratio NN O
 . . O
 Dual-core NNP O
-2.15
-GHz CD B-PCS
-Kryo
+2.15 CD B-PCS
+GHz NNP I-PCS
+Kryo NNP O
 &amp; CC O
 dual-core NNP O
-1.6
-GHz CD B-PCS
-Kryo;
+1.6 CD B-PCS
+GHz NNP I-PCS
+Kryo; NNP O
 Quad-core NNP O
-2.3
-GHz CD B-PCS
-Mongoose
+2.3 CD B-PCS
+GHz CD I-PCS
+Mongoose NNP O
 . . O
 quad-core NNP O
-1.6
-GHz CD B-PCS
+1.6 CD B-PCS
+GHz NNP I-PCS
 Cortex-A53 NNP O
 . . O
 Unlocked VBN O
@@ -4879,15 +4879,15 @@ well RBR O
 as TO O
 with RP O
 GSM NNP B-CTY
-SIM
-cards
-e.g.
-H20
-Straight
-Talk
+SIM NNP O
+cards NNS O
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 . . O
 Unlocked VBN O
@@ -4902,69 +4902,69 @@ Carriers NNS O
 like IN O
 Sprint NNP O
 Verizon NNP O
-Boost
+Boost NNP O
 or CC O
-Virgin.
+Virgin. NNP O
 
 5X NNP O
-Metal
-Body
+Metal JJ O
+Body NN O
 Unlocked VBN O
 Smartphone NN O
 - - O
 Gold NN O
 16GB CD B-HRD
-U.S.
+U.S. NNP O
 Warranty NN O
 
 Unlocked VBN O
 Dual JJ B-SIM
 SIM NNP I-SIM
-LTE
+LTE NNP B-CTY
 smartphone NN O
 with RP O
-three
+three CD O
 card NN O
-slots.
-Supports
-nano-sim
-micro-SIM
+slots. NNS O
+Supports VBS O
+nano-sim NNP B-SIM
+micro-SIM NNP B-SIM
 and CC O
 . . O
 microSD NNP O
 card NN O
-up
-to
-128GB.
-Works
+up RP O
+to TO O
+128GB. CD O
+Works VBS O
 with RP O
 AT&amp;T NNP O
 and CC O
 T-Mobile NNP O
-Networks.
+Networks. NNS O
 . . O
-Sleek
-robust
+Sleek JJ O
+robust NN O
 housing VBG O
-crafted
-from
-aircraft-grade
-aluminum
-made
+crafted JJ O
+from RP O
+aircraft-grade NN O
+aluminum NN O
+made VBP O
 with RP O
-four
-metal
+four CD O
+metal NN O
 finishing VBG O
-processes.
+processes. NNS O
 . . O
 An DT O
-accurate
+accurate JJ O
 fast JJ O
 fingerprint NN O
 sensor NN O
-improves
+improves NNS O
 with RP O
-time
+time NN O
 and CC O
 unlocks
 in RP O
@@ -5079,7 +5079,7 @@ Lumia
 Denim
 Quad-Core NNP O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A7
 Processor NN O
 Chipset: NNP O
@@ -5111,7 +5111,7 @@ Expandable JJ O
 up RP O
 to TO O
 128GB
-dedicated
+dedicated VBD O
 slot NN O
 
 ZenFone
@@ -5127,7 +5127,7 @@ Storage NN O
 Unlocked VBN O
 GSM NNP B-CTY
 Dual
-Active
+Active NNP O
 SIM
 Smartphone NN O
 compatible JJ O
@@ -5248,15 +5248,15 @@ well RBR O
 as TO O
 with RP O
 GSM NNP B-CTY
-SIM
-cards
-e.g.
-H20
-Straight
-Talk
+SIM NNP O
+cards NNS O
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 . . O
 Unlocked VBN O
@@ -5271,9 +5271,9 @@ Carriers NNS O
 like IN O
 Sprint NNP O
 Verizon NNP O
-Boost
+Boost NNP O
 or CC O
-Virgin.
+Virgin. NNP O
 . . O
 Optimized
 to
@@ -5301,7 +5301,7 @@ This DT O
 product NN O
 is VB O
 not RP O
-LTE
+LTE NNP B-CTY
 4G
 enabled.
 
@@ -5311,7 +5311,7 @@ Aesthetically
 engineered
 full JJ O
 body
-metal
+metal NN O
 design
 5.5"" CD B-SCR
 display NN O
@@ -5443,13 +5443,13 @@ GSM NNP B-CTY
 SIM
 need
 cards
-e.g.
-H20
-Straight
-Talk
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 need
 to
@@ -5477,9 +5477,9 @@ CDMA NNP O
 Carriers NNS O
 like IN O
 Sprint NNP O
-Boost
+Boost NNP O
 or CC O
-Virgin.
+Virgin. NNP O
 . . O
 2G: CD O
 GSM NNP B-CTY
@@ -5498,7 +5498,7 @@ HSDPA
 . . O
 2100
 4G:
-LTE
+LTE NNP B-CTY
 700
 . . O
 850
@@ -5544,7 +5544,7 @@ v4.4.2 NNP I-TSW
 KitKat NNP I-TSW
 Quad-Core NNP O
 2.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Krait
 400
 Processor NN O
@@ -5587,7 +5587,7 @@ hotspot
 DISPLAY:
 Type
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 16M
 colors
 Size
@@ -5597,7 +5597,7 @@ inches
 screen NN O
 to
 body
-ratio
+ratio NN O
 Resolution
 1080
 . . O
@@ -5636,8 +5636,8 @@ Snapdragon NNP O
 801
 CPU NNP O
 Quad-core NNP O
-2.3
-GHz CD B-PCS
+2.3 CD B-PCS
+GHz CD I-PCS
 Krait
 400
 GPU NNP O
@@ -5647,8 +5647,8 @@ MEMORY
 Card NN O
 slot NN O
 microSD NNP O
-up
-to
+up RP O
+to TO O
 128
 GB
 Internal JJ O
@@ -5720,7 +5720,7 @@ Tablet
 PC
 . . O
 GSM NNP B-CTY
-Wireless
+Wireless NNS O
 smartphone NN O
 Call
 as TO O
@@ -5753,7 +5753,7 @@ and CC O
 receive
 calls
 directly
-from
+from RP O
 the DT O
 tablet
 itself
@@ -5833,7 +5833,7 @@ applications
 available
 to
 download
-straight
+straight RP O
 to
 your PRP O
 phablet.
@@ -5884,7 +5884,7 @@ Tablet
 PC
 . . O
 GSM NNP B-CTY
-Wireless
+Wireless NNS O
 smartphone NN O
 Call
 as TO O
@@ -5917,7 +5917,7 @@ and CC O
 receive
 calls
 directly
-from
+from RP O
 the DT O
 tablet
 itself
@@ -5997,7 +5997,7 @@ applications
 available
 to
 download
-straight
+straight RP O
 to
 your PRP O
 phablet.
@@ -6043,7 +6043,7 @@ Smartphone NN O
 - - O
 Black JJ O
 16GB CD B-HRD
-U.S.
+U.S. NNP O
 Warranty NN O
 " '' O
 Unlocked VBN O
@@ -6141,8 +6141,8 @@ Nexus NNP O
 - - O
 32
 GB
-Aluminum
-U.S.
+Aluminum NN O
+U.S. NNP O
 Version:
 Nin-A1
 - - O
@@ -6154,13 +6154,13 @@ smartphone NN O
 w/ RP O
 4G NNP B-CTY
 LTE NNP I-CTY
-U.S.
+U.S. NNP O
 Warranty NN O
 
 All-metal
 design
 Unlocked VBN O
-LTE
+LTE NNP B-CTY
 smartphone NN O
 with RP O
 . . O
@@ -6243,7 +6243,7 @@ sensor NN O
 placed
 on RP O
 the DT O
-back
+back RP O
 to
 complement
 the DT O
@@ -6261,7 +6261,7 @@ lasting VBG O
 mAh
 battery NN O
 with RP O
-quick
+quick JJ O
 charging VBG O
 USB NNP O
 Type-C NNP O
@@ -6311,8 +6311,8 @@ super
 battery NN O
 that
 lasts
-up
-to
+up RP O
+to TO O
 . . O
 days
 with RP O
@@ -6325,16 +6325,16 @@ days
 on RP O
 standby
 get
-up
-to
+up RP O
+to TO O
 . . O
 hour
 of
-Talk
-time
+Talk VB O
+time NN O
 with RP O
 lightening VBG O
-quick
+quick JJ O
 10
 min
 charge.
@@ -6382,11 +6382,11 @@ to RP O
 64GB CD O
 . . O
 GSM NNP B-CTY
-Quad
-Band
-4G
-HSPA+
-850/1700/1900
+Quad NNP I-CTY
+Band NNP I-CTY
+4G CD I-CTY
+HSPA+ NNP I-CTY
+850/1700/1900 CD I-CTY
 . . O
 US NNP O
 Compatibility NN O
@@ -6428,12 +6428,12 @@ v5.0.2
 Lollipop
 Quad-Core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 . . O
 Quad-Core NNP O
 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 Processor NN O
 Chipset: NNP O
@@ -6459,15 +6459,15 @@ well RBR O
 as TO O
 with RP O
 GSM NNP B-CTY
-SIM
-cards
-e.g.
-H20
-Straight
-Talk
+SIM NNP O
+cards NNS O
+e.g. NNP O
+H20 NN O
+Straight RP O
+Talk VB O
 and CC O
-select
-prepaid
+select VB O
+prepaid NN O
 carriers NNS O
 . . O
 Unlocked VBN O
@@ -6482,9 +6482,9 @@ Carriers NNS O
 like IN O
 Sprint NNP O
 Verizon NNP O
-Boost
+Boost NNP O
 or CC O
-Virgin.
+Virgin. NNP O
 . . O
 5.1-inch
 Super JJ O
@@ -6523,7 +6523,7 @@ HSDPA
 . . O
 2100
 4G:
-LTE
+LTE NNP B-CTY
 Cat6
 700
 . . O
@@ -6641,8 +6641,8 @@ Memory NN O
 RAM NNP O
 Micro JJ O
 SD NNP O
-up
-to
+up RP O
+to TO O
 64GB.
 . . O
 4G NNP B-CTY
@@ -6696,7 +6696,7 @@ Unlocked VBN O
 US NNP O
 Warranty NN O
 Gunmetal
-Grey
+Grey JJ O
 
 Display:
 5.0-inches
@@ -6707,8 +6707,8 @@ UltraPixel
 . . O
 Processor NN O
 Speed:
-2.3
-GHz CD B-PCS
+2.3 CD B-PCS
+GHz CD I-PCS
 . . O
 OS:
 Android
@@ -6753,27 +6753,27 @@ Li-Po
 mAh
 battery NN O
 Stand-by:
-Up
-to
+Up RP O
+to TO O
 271
 . . O
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 496
 . . O
 3G
-Talk
+Talk VB O
 time:
-Up
-to
+Up RP O
+to TO O
 14
 . . O
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 20
 . . O
 3G
@@ -6858,7 +6858,7 @@ to
 activate
 on RP O
 Verizon NNP O
-wireless
+wireless NNS O
 . . O
 MIL-STD-810G
 certification
@@ -6875,7 +6875,7 @@ Cream
 Sandwich""
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 dual-core NNP O
 Qualcomm NNP O
 Snapdragon NNP O
@@ -6968,7 +6968,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -7040,8 +7040,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 21
 hrs
@@ -7137,7 +7137,7 @@ Core NNP O
 Frequency
 . . O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -7264,7 +7264,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -7336,8 +7336,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 10
 hrs
@@ -7351,7 +7351,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 250
 hrs
@@ -7397,7 +7397,7 @@ Configuration
 . . O
 Single
 Sim
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -7579,7 +7579,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -7758,12 +7758,12 @@ Core NNP O
 Frequency
 . . O
 1.4
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
 1.8
-GHz CD B-PCS
+GHz NNP B-PCS
 Dual
 Core NNP O
 . . O
@@ -7893,7 +7893,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -8012,7 +8012,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -8071,7 +8071,7 @@ Core NNP O
 Frequency
 . . O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
@@ -8199,7 +8199,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -8271,8 +8271,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 14
 hrs
@@ -8286,7 +8286,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 250
 hrs
@@ -8332,7 +8332,7 @@ Configuration
 . . O
 Single
 Sim
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -8378,7 +8378,7 @@ Core NNP O
 Frequency
 . . O
 1.4
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -8498,7 +8498,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -8569,8 +8569,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 10
 hrs
@@ -8584,7 +8584,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 250
 hrs
@@ -8630,7 +8630,7 @@ Configuration
 . . O
 Single
 Sim
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -8841,8 +8841,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 12
 hrs
@@ -8857,7 +8857,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 840
 hrs
@@ -9035,7 +9035,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -9107,8 +9107,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 22
 hrs
@@ -9162,7 +9162,7 @@ Configuration
 . . O
 Single
 Sim
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -9216,12 +9216,12 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
@@ -9349,7 +9349,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -9428,8 +9428,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 17
 hrs
@@ -9482,7 +9482,7 @@ Configuration
 . . O
 Single
 SIM
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -9535,12 +9535,12 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
@@ -9669,7 +9669,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -9748,8 +9748,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 27
 hrs
@@ -9850,13 +9850,13 @@ Core NNP O
 . . O
 Frequency
 . . O
-2.3
-GHz CD B-PCS
+2.3 CD B-PCS
+GHz CD I-PCS
 Quad NNP O
 Core NNP O
 . . O
-1.6
-GHz CD B-PCS
+1.6 CD B-PCS
+GHz NNP I-PCS
 Quad NNP O
 Core NNP O
 . . O
@@ -10041,8 +10041,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 20
 hrs
@@ -10056,7 +10056,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 504
 hrs
@@ -10242,7 +10242,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -10410,8 +10410,8 @@ Core NNP O
 . . O
 Frequency
 . . O
-1.6
-GHz CD B-PCS
+1.6 CD B-PCS
+GHz NNP I-PCS
 . . O
 . . O
 GPU NNP O
@@ -10530,7 +10530,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -10638,7 +10638,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -10691,7 +10691,7 @@ Core NNP O
 Frequency
 . . O
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -10819,7 +10819,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -10935,7 +10935,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -10994,12 +10994,12 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
@@ -11127,7 +11127,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -11297,7 +11297,7 @@ Core NNP O
 Frequency
 . . O
 2.0
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -11395,7 +11395,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -11459,8 +11459,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 9
 hrs
@@ -11474,7 +11474,7 @@ mAh NNP O
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 435
 hrs
@@ -11515,7 +11515,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 Sim NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -11691,7 +11691,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -11763,8 +11763,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 16
 hrs
@@ -11778,7 +11778,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 890
 hrs
@@ -11827,7 +11827,7 @@ Configuration
 . . O
 Single
 SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -11873,8 +11873,8 @@ Core NNP O
 . . O
 Frequency
 . . O
-1.6
-GHz CD B-PCS
+1.6 CD B-PCS
+GHz NNP I-PCS
 . . O
 . . O
 GPU NNP O
@@ -12001,7 +12001,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -12071,8 +12071,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 5
 hrs
@@ -12086,7 +12086,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 472
 hrs
@@ -12184,7 +12184,7 @@ core NNP O
 Frequency
 . . O
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -12313,7 +12313,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -12383,8 +12383,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 8
 hrs
@@ -12398,7 +12398,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 200
 hrs
@@ -12443,7 +12443,7 @@ Configuration
 . . O
 Single
 SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -12494,7 +12494,7 @@ Core NNP O
 Frequency
 . . O
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -12623,7 +12623,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -12695,8 +12695,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 13
 hrs
@@ -12710,7 +12710,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 570
 hrs
@@ -12759,7 +12759,7 @@ Configuration
 . . O
 Single
 SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -12806,7 +12806,7 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -12932,7 +12932,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -13003,8 +13003,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 8
 hrs
@@ -13018,7 +13018,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 225
 hrs
@@ -13064,7 +13064,7 @@ Configuration
 . . O
 Single
 SIM
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -13232,7 +13232,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -13303,8 +13303,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 8
 hrs
@@ -13318,7 +13318,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 225
 hrs
@@ -13365,7 +13365,7 @@ Configuration
 . . O
 Single
 SIM
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -13522,7 +13522,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -13672,7 +13672,7 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -13797,7 +13797,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -13973,12 +13973,12 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
@@ -14109,7 +14109,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -14181,8 +14181,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 38
 hrs
@@ -14196,7 +14196,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 914
 hrs
@@ -14243,7 +14243,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -14302,12 +14302,12 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
@@ -14440,7 +14440,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -14558,7 +14558,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -14616,7 +14616,7 @@ Core NNP O
 Frequency
 . . O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -14724,7 +14724,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -14787,8 +14787,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 8
 hrs
@@ -14801,7 +14801,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 250
 hrs
@@ -14843,7 +14843,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -15016,7 +15016,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -15089,8 +15089,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 13
 hrs
@@ -15104,7 +15104,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 430
 hrs
@@ -15204,8 +15204,8 @@ Core NNP O
 . . O
 Frequency
 . . O
-2.3
-GHz CD B-PCS
+2.3 CD B-PCS
+GHz CD I-PCS
 . . O
 . . O
 GPU NNP O
@@ -15335,7 +15335,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -15407,8 +15407,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 11
 hrs
@@ -15424,7 +15424,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 790
 hrs
@@ -15473,7 +15473,7 @@ Configuration
 . . O
 Single
 SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -15520,7 +15520,7 @@ Core NNP O
 Frequency
 . . O
 1.4
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -15638,7 +15638,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -15710,8 +15710,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 13
 hrs
@@ -15725,7 +15725,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 626
 hrs
@@ -15774,7 +15774,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -15821,7 +15821,7 @@ Core NNP O
 Frequency
 . . O
 2.2
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -15919,7 +15919,7 @@ inches
 5.5
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -15982,8 +15982,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 10
 hrs
@@ -15996,7 +15996,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 250
 hrs
@@ -16077,7 +16077,7 @@ Core NNP O
 Frequency
 . . O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 . . O
@@ -16193,7 +16193,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -16309,7 +16309,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Nano-SIM
+Nano-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -16356,7 +16356,7 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -16483,7 +16483,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -16555,8 +16555,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 11
 hrs
@@ -16570,7 +16570,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 355
 hrs
@@ -16615,7 +16615,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -16788,7 +16788,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -16860,8 +16860,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 18
 hrs
@@ -16875,7 +16875,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 696
 hrs
@@ -16920,7 +16920,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -16967,7 +16967,7 @@ Core NNP O
 Frequency
 . . O
 1.7
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -17067,7 +17067,7 @@ inches
 5.0
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -17124,8 +17124,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 6.5
 hrs
@@ -17139,7 +17139,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 182
 hrs
@@ -17182,7 +17182,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -17235,7 +17235,7 @@ Core NNP O
 Frequency
 . . O
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 . . O
 . . O
 GPU NNP O
@@ -17362,7 +17362,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -17435,8 +17435,8 @@ Type
 Li-Ion
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 14
 hrs
@@ -17452,7 +17452,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 520
 hrs
@@ -17561,12 +17561,12 @@ Core NNP O
 Frequency
 . . O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
 2.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Quad NNP O
 Core NNP O
 . . O
@@ -17694,7 +17694,7 @@ inch
 ppi
 . . O
 . . O
-Touchscreen
+Touchscreen NN O
 type
 . . O
 Capacitive JJ O
@@ -17766,8 +17766,8 @@ Type
 Li-Po
 . . O
 . . O
-Talk
-time
+Talk VB O
+time NN O
 . . O
 4
 hrs
@@ -17783,7 +17783,7 @@ mAh
 . . O
 . . O
 Standby
-Time
+Time NN O
 . . O
 182
 hrs
@@ -17826,7 +17826,7 @@ Configuration
 . . O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Micro-SIM
+Micro-SIM NNP B-SIM
 . . O
 . . O
 GPS
@@ -17948,7 +17948,7 @@ transfer
 GPRS
 EDGE
 HSDPA
-LTE
+LTE NNP B-CTY
 Wi-Fi
 Design
 . . O
@@ -18022,8 +18022,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 200GB
 Connectivity
 . . O
@@ -18107,7 +18107,7 @@ transfer
 GPRS
 EDGE
 HSDPA
-LTE
+LTE NNP B-CTY
 Wi-Fi
 Design
 . . O
@@ -18181,8 +18181,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 200GB
 Connectivity
 . . O
@@ -18275,7 +18275,7 @@ transfer
 HSPA
 42.2/5.76
 Mbps
-LTE
+LTE NNP B-CTY
 Cat6
 300/50
 Mbps
@@ -18308,7 +18308,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-Touchscreen
+Touchscreen NN O
 Main
 Display NN O
 Size
@@ -18369,12 +18369,12 @@ Snapdragon NNP O
 Processor NN O
 Quad-core NNP O
 1.44
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 dual-core NNP O
 1.82
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 CPU NNP O
 Adreno
@@ -18433,9 +18433,9 @@ Software
 App
 DivX/MP4/H.264
 player
-Photo/video
+Photo/video NN O
 editor
-Document
+Document NN O
 editor
 Audio
 MP3
@@ -18457,19 +18457,19 @@ Specification
 . . O
 Specifications
 70.2%
-screen-to-body
-ratio
+screen-to-body NNP O
+ratio NN O
 Corning JJ O
 Gorilla NNP O
 Glass NN O
 . . O
 oleophobic NN O
 coating VBG O
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mic
 Dimensions
 &amp; CC O
@@ -18499,7 +18499,7 @@ FACTORY NN O
 UNLOCKED
 G930F
 32GB CD B-HRD
-LTE
+LTE NNP B-CTY
 (International
 version)
 " '' O
@@ -18559,8 +18559,8 @@ See
 description
 for IN O
 details.
-Talk
-Time
+Talk VB O
+Time NN O
 See
 description
 for IN O
@@ -18655,8 +18655,8 @@ See
 description
 for IN O
 details.
-Talk
-Time
+Talk VB O
+Time NN O
 See
 description
 for IN O
@@ -18707,7 +18707,7 @@ Nexus NNP O
 32
 GB
 Graphite
-LTE
+LTE NNP B-CTY
 Unlocked VBN O
 Smartphone NN O
 " '' O
@@ -18732,7 +18732,7 @@ transfer
 HSPA
 42.2/5.76
 Mbps
-LTE
+LTE NNP B-CTY
 Cat6
 300/50
 Mbps
@@ -18765,7 +18765,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -18825,12 +18825,12 @@ Snapdragon NNP O
 Processor NN O
 Quad-core NNP O
 1.55
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 2.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 CPU NNP O
 Adreno
@@ -18875,17 +18875,17 @@ Type
 Non-removable
 Li-Po
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 23
 hour(s)
 (3G)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 440
 hour(s)
 (3G)
@@ -18896,9 +18896,9 @@ Software
 App
 MP4/H.264
 player
-Photo/video
+Photo/video NN O
 editor
-Document
+Document NN O
 editor
 GPS
 Integrated
@@ -18941,11 +18941,11 @@ HDR
 panorama
 Fast JJ O
 charging VBG O
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mics
 Dimensions
 &amp; CC O
@@ -18995,7 +18995,7 @@ transfer
 HSPA
 42.2/5.76
 Mbps
-LTE
+LTE NNP B-CTY
 Cat6
 300/50
 Mbps
@@ -19039,7 +19039,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -19108,7 +19108,7 @@ Dual-Core NNP O
 Processor NN O
 Speed
 . . O
-GHz CD B-PCS
+GHz NNP B-PCS
 RAM
 2GB
 Built-in
@@ -19144,37 +19144,37 @@ Type
 Non-removable
 Li-Ion
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 24
 hour(s)
 (3G)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 384
 hour(s)
 Operating VBG O
-Time
+Time NN O
 Internet
 use:
-Up
-to
+Up RP O
+to TO O
 12
 hour(s)
 on RP O
 3G
-up
-to
+up RP O
+to TO O
 12
 hour(s)
 on RP O
-LTE
-up
-to
+LTE NNP B-CTY
+up RP O
+to TO O
 12
 hour(s)
 on RP O
@@ -19182,14 +19182,14 @@ Wi-Fi
 HD NNP O
 video NN O
 playback:
-Up
-to
+Up RP O
+to TO O
 14
 hour(s)
 Audio
 playback:
-Up
-to
+Up RP O
+to TO O
 80
 hour(s)
 Software
@@ -19229,7 +19229,7 @@ Clock
 Videos
 Stocks
 Calculator
-Voice
+Voice NN O
 Memos
 Compass
 Podcasts
@@ -19301,7 +19301,7 @@ LED-backlit NNP O
 widescreen NN O
 1300:1
 contrast
-ratio
+ratio NN O
 (typical)
 500
 cd/m2
@@ -19392,7 +19392,7 @@ local
 tone
 mapping VBG O
 Improved
-noise
+noise NN O
 reduction
 Face NN O
 detection NN O
@@ -19530,7 +19530,7 @@ transfer
 GPRS
 EDGE
 HSDPA
-LTE
+LTE NNP B-CTY
 Wi-Fi
 Design
 . . O
@@ -19604,8 +19604,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 200GB
 Connectivity
 . . O
@@ -19685,7 +19685,7 @@ transfer
 GPRS
 EDGE
 HSDPA
-LTE
+LTE NNP B-CTY
 Wi-Fi
 Design
 . . O
@@ -19723,7 +19723,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -19787,8 +19787,8 @@ Core NNP O
 Quad-Core NNP O
 Processor NN O
 Speed
-2.3
-GHz CD B-PCS
+2.3 CD B-PCS
+GHz CD I-PCS
 RAM
 4GB
 Built-in
@@ -19850,7 +19850,7 @@ MP4
 . . O
 H.264
 player
-Document
+Document NN O
 viewer
 Photo
 . . O
@@ -19888,8 +19888,8 @@ Gorilla NNP O
 Glass NN O
 . . O
 70.8%
-screen-to-body
-ratio
+screen-to-body NNP O
+ratio NN O
 Asus
 ZenUI
 Geo-tagging VBG O
@@ -19934,8 +19934,8 @@ oz.
 
 5X NNP O
 - - O
-Metal
-body
+Metal JJ O
+body NN O
 Fingerprint NN O
 sensor NN O
 5.5
@@ -19988,8 +19988,8 @@ AT&amp;T NNP O
 T-Mobile NNP O
 MetroPCS
 Cricket
-Straight
-Talk
+Straight RP O
+Talk VB O
 AT&amp;T NNP O
 Go
 Phone NN O
@@ -19999,7 +19999,7 @@ Mobile NN O
 Consumer
 Cellular
 Net10
-Wireless
+Wireless NNS O
 Simple
 Mobile NN O
 GoSmart
@@ -20102,12 +20102,12 @@ Snapdragon NNP O
 Processor NN O
 Quad-core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 quad-core NNP O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 64-bit CD O
 CPU NNP O
@@ -20129,8 +20129,8 @@ MicroSD NNP O
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 128GB
 Connectivity
 . . O
@@ -20164,49 +20164,49 @@ Features
 Unlocked VBN O
 dual JJ B-SIM
 SIM NNP I-SIM
-LTE
+LTE NNP B-CTY
 smartphone NN O
 with RP O
-three
+three CD O
 card NN O
-slots.
-Supports
-nano-SIM
-micro-SIM
+slots. NNS O
+Supports VBS O
+nano-SIM NNP B-SIM
+micro-SIM NNP B-SIM
 and CC O
 . . O
 microSD NNP O
 card NN O
-up
-to
-128GB.
-Works
+up RP O
+to TO O
+128GB. CD O
+Works VBS O
 with RP O
 AT&amp;T NNP O
 and CC O
 T-Mobile NNP O
-networks.
-Sleek
-robust
+networks. NNS O
+Sleek JJ O
+robust NN O
 housing VBG O
-crafted
-from
-aircraft-grade
-aluminum
-made
+crafted JJ O
+from RP O
+aircraft-grade NN O
+aluminum NN O
+made VBP O
 with RP O
-four
-metal
+four CD O
+metal NN O
 finishing VBG O
-processes.
+processes. NNS O
 An DT O
-accurate
+accurate JJ O
 fast JJ O
 fingerprint NN O
 sensor NN O
-improves
+improves NNS O
 with RP O
-time
+time NN O
 and CC O
 unlocks
 in RP O
@@ -20326,7 +20326,7 @@ UL):
 . . O
 5.76
 Mbps;
-LTE
+LTE NNP B-CTY
 CAT4
 (DL
 . . O
@@ -20355,8 +20355,8 @@ GSM NNP B-CTY
 network NN O
 such
 as:
-Straight
-Talk
+Straight RP O
+Talk VB O
 Walmart
 Family
 Mobile NN O
@@ -20365,8 +20365,8 @@ Simple
 Mobile NN O
 Brightspot
 Net10
-h20
-Wireless
+h20 NN O
+Wireless NNS O
 and CC O
 Cricket
 Wireless. NN O
@@ -20496,8 +20496,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 128GB
 Connectivity
 . . O
@@ -20587,8 +20587,8 @@ Card NN O
 
 5X NNP O
 - - O
-Metal
-body
+Metal JJ O
+body NN O
 Fingerprint NN O
 sensor NN O
 5.5
@@ -20621,7 +20621,7 @@ KIW-L24
 Part
 Number
 KIW-L24
-Grey
+Grey JJ O
 Network NN O
 . . O
 Technology NN O
@@ -20640,8 +20640,8 @@ AT&amp;T NNP O
 T-Mobile NNP O
 MetroPCS
 Cricket
-Straight
-Talk
+Straight RP O
+Talk VB O
 AT&amp;T NNP O
 Go
 Phone NN O
@@ -20651,7 +20651,7 @@ Mobile NN O
 Consumer
 Cellular
 Net10
-Wireless
+Wireless NNS O
 Simple
 Mobile NN O
 GoSmart
@@ -20758,12 +20758,12 @@ Snapdragon NNP O
 Processor NN O
 Quad-core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 64-bit CD O
 CPU NNP O
@@ -20785,8 +20785,8 @@ MicroSD NNP O
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 128GB
 Connectivity
 . . O
@@ -20820,49 +20820,49 @@ Features
 Unlocked VBN O
 dual JJ B-SIM
 SIM NNP I-SIM
-LTE
+LTE NNP B-CTY
 smartphone NN O
 with RP O
-three
+three CD O
 card NN O
-slots.
-Supports
-nano-SIM
-micro-SIM
+slots. NNS O
+Supports VBS O
+nano-SIM NNP B-SIM
+micro-SIM NNP B-SIM
 and CC O
 . . O
 microSD NNP O
 card NN O
-up
-to
-128GB.
-Works
+up RP O
+to TO O
+128GB. CD O
+Works VBS O
 with RP O
 AT&amp;T NNP O
 and CC O
 T-Mobile NNP O
-networks.
-Sleek
-robust
+networks. NNS O
+Sleek JJ O
+robust NN O
 housing VBG O
-crafted
-from
-aircraft-grade
-aluminum
-made
+crafted JJ O
+from RP O
+aircraft-grade NN O
+aluminum NN O
+made VBP O
 with RP O
-four
-metal
+four CD O
+metal NN O
 finishing VBG O
-processes.
+processes. NNS O
 An DT O
-accurate
+accurate JJ O
 fast JJ O
 fingerprint NN O
 sensor NN O
-improves
+improves NNS O
 with RP O
-time
+time NN O
 and CC O
 unlocks
 in RP O
@@ -20906,7 +20906,7 @@ Nexus NNP O
 32
 GB
 Aluminium
-LTE
+LTE NNP B-CTY
 Unlocked VBN O
 Smartphone NN O
 " '' O
@@ -20931,7 +20931,7 @@ transfer
 HSPA
 42.2/5.76
 Mbps
-LTE
+LTE NNP B-CTY
 Cat6
 300/50
 Mbps
@@ -20964,7 +20964,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -21024,12 +21024,12 @@ Snapdragon NNP O
 Processor NN O
 Quad-core NNP O
 1.55
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 2.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 CPU NNP O
 Adreno
@@ -21074,17 +21074,17 @@ Type
 Non-removable
 Li-Po
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 23
 hour(s)
 (3G)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 440
 hour(s)
 (3G)
@@ -21095,9 +21095,9 @@ Software
 App
 MP4/H.264
 player
-Photo/video
+Photo/video NN O
 editor
-Document
+Document NN O
 editor
 GPS
 Integrated
@@ -21140,11 +21140,11 @@ HDR
 panorama
 Fast JJ O
 charging VBG O
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mics
 Dimensions
 &amp; CC O
@@ -21235,7 +21235,7 @@ UMTS
 . . O
 2100
 MHz
-LTE
+LTE NNP B-CTY
 Bands NNS O
 . . O
 /
@@ -21260,7 +21260,7 @@ Bands NNS O
 28
 Data
 transfer
-LTE
+LTE NNP B-CTY
 Cat
 . . O
 (150/50
@@ -21304,7 +21304,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -21363,12 +21363,12 @@ Snapdragon NNP O
 Processor NN O
 Quad-core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 . . O
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 CPU NNP O
 Adreno
@@ -21388,8 +21388,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 200GB
 Connectivity
 . . O
@@ -21421,29 +21421,29 @@ Type
 Lithium
 Ion
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 25
 hour(s)
 (2G)
 . . O
-Up
-to
+Up RP O
+to TO O
 19
 hour(s)
 (3G)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 288
 hour(s)
 (2G)
 . . O
-Up
-to
+Up RP O
+to TO O
 288
 hour(s)
 (3G)
@@ -21456,11 +21456,11 @@ MP4
 . . O
 H.265
 player
-OneDrive
+OneDrive NNP O
 (15GB
 cloud
 storage)
-Document
+Document NN O
 viewer
 Photo
 . . O
@@ -21519,11 +21519,11 @@ Continuum
 support
 Fast JJ O
 charging VBG O
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mic
 Dimensions
 &amp; CC O
@@ -21573,7 +21573,7 @@ SIM NNP I-SIM
 (Black)
 Fast JJ O
 Ship
-From
+From RP O
 US NNP O
 " '' O
 . . O
@@ -21639,7 +21639,7 @@ Quad-Core NNP O
 Processor NN O
 Speed
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 RAM
 512MB
 Built-in
@@ -21654,8 +21654,8 @@ Card)
 Max
 Storage NN O
 Expansion
-up
-to
+up RP O
+to TO O
 32
 GB
 Connectivity
@@ -21676,26 +21676,26 @@ Type
 Lithium
 Ion
 Battery NN O
-Talk
-Time
+Talk VB O
+Time NN O
 5-10
 hours
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 225
 hours
 Operating VBG O
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 . . O
 hours
 on RP O
 3G
-Up
-to
+Up RP O
+to TO O
 . . O
 hours
 on RP O
@@ -21735,8 +21735,8 @@ HTC
 Aria
 Android
 2.1
-Quad
-Band
+Quad NNP B-CTY
+Band NNP I-CTY
 Unlocked VBN O
 Touch
 screen NN O
@@ -21803,8 +21803,8 @@ Support
 IEEE802.11b/g
 Battery NN O
 . . O
-Talk
-Time
+Talk VB O
+Time NN O
 . . O
 - - O
 . . O
@@ -21849,7 +21849,7 @@ UMTS
 . . O
 2100
 MHz
-LTE
+LTE NNP B-CTY
 800
 . . O
 850
@@ -21869,7 +21869,7 @@ transfer
 GPRS
 EDGE
 HSDPA
-LTE
+LTE NNP B-CTY
 Wi-Fi
 Compatible JJ O
 Carrier NN O
@@ -21894,7 +21894,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -21956,7 +21956,7 @@ Quad-Core NNP O
 Processor NN O
 Speed
 2.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Built-in
 Storage NN O
 16GB CD B-HRD
@@ -21969,8 +21969,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 128GB
 Connectivity
 . . O
@@ -22003,16 +22003,16 @@ Type
 Lithium
 Ion
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 27
 hour(s)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 480
 hour(s)
 Software
@@ -22040,9 +22040,9 @@ Gmail
 YouTube
 Calendar
 Google
-Talk
+Talk VB O
 Picasa
-Document
+Document NN O
 viewer
 (Word
 Excel
@@ -22072,16 +22072,16 @@ Wi-Fi/GPS/NFC
 Specification
 . . O
 Specifications
-Wireless
+Wireless NNS O
 charging VBG O
 (market
 dependent)
-ANT+
+ANT+ NNP O
 support
 S-Voice
-natural
-language
-commands
+natural JJ O
+language NN O
+commands NNS O
 and CC O
 dictation
 Smart
@@ -22090,11 +22090,11 @@ Smart
 pause
 Smart
 scroll
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mic
 TV-out
 (via
@@ -22102,7 +22102,7 @@ MHL
 . . O
 A/V
 link)
-Voice
+Voice NN O
 memo/dial/commands
 Predictive
 text
@@ -22119,8 +22119,8 @@ water
 resistant
 Water
 resistant
-up
-to
+up RP O
+to TO O
 . . O
 meter
 and CC O
@@ -22215,7 +22215,7 @@ Nexus NNP O
 GB
 Matte
 Gold NN O
-LTE
+LTE NNP B-CTY
 Unlocked VBN O
 Smartphone NN O
 " '' O
@@ -22244,7 +22244,7 @@ transfer
 HSPA
 42.2/5.76
 Mbps
-LTE
+LTE NNP B-CTY
 Cat6
 300/50
 Mbps
@@ -22278,7 +22278,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -22338,12 +22338,12 @@ Snapdragon NNP O
 Processor NN O
 Quad-core NNP O
 1.55
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 2.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 CPU NNP O
 Adreno
@@ -22391,17 +22391,17 @@ Type
 Non-removable
 Li-Po
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 23
 hour(s)
 (3G)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 440
 hour(s)
 (3G)
@@ -22412,9 +22412,9 @@ Software
 App
 MP4/H.264
 player
-Photo/video
+Photo/video NN O
 editor
-Document
+Document NN O
 editor
 GPS
 Integrated
@@ -22440,8 +22440,8 @@ Specification
 . . O
 Specifications
 71.4%
-screen-to-body
-ratio
+screen-to-body NNP O
+ratio NN O
 Corning JJ O
 Gorilla NNP O
 Glass NN O
@@ -22466,11 +22466,11 @@ HDR
 panorama
 Fast JJ O
 charging VBG O
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mics
 Features
 . . O
@@ -22478,13 +22478,13 @@ Features
 All-metal
 design
 unlocked
-LTE
+LTE NNP B-CTY
 smartphone NN O
 with RP O
 . . O
 powerful
 . . O
-GHz CD B-PCS
+GHz NNP B-PCS
 Snapdragon NNP O
 810
 v2.1
@@ -22598,7 +22598,7 @@ GSM NNP B-CTY
 . . O
 HSPA
 . . O
-LTE
+LTE NNP B-CTY
 Mobile NN O
 Frequencies
 Any
@@ -22609,7 +22609,7 @@ transfer
 GPRS
 EDGE
 HSDPA
-LTE
+LTE NNP B-CTY
 Wi-Fi
 Design
 . . O
@@ -22649,7 +22649,7 @@ Format
 Super JJ O
 AMOLED NNP O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Camera NN O
 . . O
 Rear
@@ -22691,7 +22691,7 @@ Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 RAM
 . . O
@@ -22883,7 +22883,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -22949,7 +22949,7 @@ Quad-Core NNP O
 Processor NN O
 Speed
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 RAM
 1GB
 Built-in
@@ -22986,10 +22986,10 @@ Type
 Lithium
 Ion
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 24
 hour(s)
 Software
@@ -23009,7 +23009,7 @@ player
 Organizer
 Photo
 viewer/editor
-Document
+Document NN O
 viewer
 Google
 Search
@@ -23017,7 +23017,7 @@ Maps
 Gmail
 YouTube
 Google
-Talk
+Talk VB O
 Picasa
 GPS
 Integrated
@@ -23060,13 +23060,13 @@ Sensors:
 Accelerometer
 proximity
 compass
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mic
-Voice
+Voice NN O
 memo/dial
 Predictive
 text
@@ -23121,7 +23121,7 @@ transfer
 GPRS
 EDGE
 HSDPA
-LTE
+LTE NNP B-CTY
 Wi-Fi
 Compatible JJ O
 Carrier NN O
@@ -23190,7 +23190,7 @@ Processor NN O
 Core NNP O
 Quad-core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Built-in
 Storage NN O
 16GB CD B-HRD
@@ -23289,7 +23289,7 @@ Nexus NNP O
 64
 GB
 Aluminium
-LTE
+LTE NNP B-CTY
 Unlocked VBN O
 Smartphone NN O
 " '' O
@@ -23314,7 +23314,7 @@ transfer
 HSPA
 42.2/5.76
 Mbps
-LTE
+LTE NNP B-CTY
 Cat6
 300/50
 Mbps
@@ -23347,7 +23347,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -23407,12 +23407,12 @@ Snapdragon NNP O
 Processor NN O
 Quad-core NNP O
 1.55
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 2.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 CPU NNP O
 Adreno
@@ -23457,17 +23457,17 @@ Type
 Non-removable
 Li-Po
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 23
 hour(s)
 (3G)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 440
 hour(s)
 (3G)
@@ -23478,9 +23478,9 @@ Software
 App
 MP4/H.264
 player
-Photo/video
+Photo/video NN O
 editor
-Document
+Document NN O
 editor
 GPS
 Integrated
@@ -23523,11 +23523,11 @@ HDR
 panorama
 Fast JJ O
 charging VBG O
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mics
 Dimensions
 &amp; CC O
@@ -23615,7 +23615,7 @@ transfer
 GPRS
 EDGE
 HSDPA
-LTE
+LTE NNP B-CTY
 Wi-Fi
 Design
 . . O
@@ -23651,7 +23651,7 @@ Display NN O
 Touch
 Screen NN O
 Capacitive JJ O
-touchscreen
+touchscreen NN O
 Main
 Display NN O
 Size
@@ -23705,12 +23705,12 @@ Exynos
 Processor NN O
 Quad-core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 CPU NNP O
 Mali-T760
@@ -23781,7 +23781,7 @@ Photo
 . . O
 Video NN O
 editor
-Document
+Document NN O
 editor
 GPS
 Integrated
@@ -23841,33 +23841,33 @@ detection NN O
 Auto
 HDR
 panorama
-Wireless
+Wireless NNS O
 charging VBG O
 (Qi
 . . O
 PMA)
 - - O
-market
+market NN O
 dependent NN O
-ANT+
+ANT+ NNP O
 support
 S-Voice
-natural
-language
-commands
+natural JJ O
+language NN O
+commands NNS O
 and CC O
 dictation
 Smart
 stay
-OneDrive
+OneDrive NNP O
 (115GB
 cloud
 storage)
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mic
 Dimensions
 &amp; CC O
@@ -23938,7 +23938,7 @@ Bean
 Processor NN O
 Speed
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Built-in
 Storage NN O
 4GB
@@ -24055,7 +24055,7 @@ core NNP O
 Processor NN O
 Speed
 1.4
-GHz CD B-PCS
+GHz NNP B-PCS
 Built-in
 Storage NN O
 16
@@ -24087,33 +24087,33 @@ Type
 Non-removable
 Li-Po
 battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 20
 . . O
 40
 min
 (2G)
 . . O
-Up
-to
+Up RP O
+to TO O
 13
 . . O
 20
 min
 (3G)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 500
 . . O
 (2G)
 . . O
-Up
-to
+Up RP O
+to TO O
 692
 . . O
 (3G)
@@ -24137,11 +24137,11 @@ Wi-Fi
 3G
 SNS
 integration
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mic
 MP4/H.263/H.264/WMV
 player
@@ -24176,7 +24176,7 @@ Krait
 Galaxy NNP O
 S6
 G920F
-LTE
+LTE NNP B-CTY
 32GB CD B-HRD
 Octa-core NNP O
 SIM
@@ -24233,7 +24233,7 @@ Color NN O
 Silver NN O
 Dual JJ B-SIM
 SIM NNP I-SIM
-Nano-SIM
+Nano-SIM NNP B-SIM
 Display NN O
 . . O
 Touch
@@ -24286,7 +24286,7 @@ Quad-Core NNP O
 Processor NN O
 Speed
 1.8
-GHz CD B-PCS
+GHz NNP B-PCS
 Built-in
 Storage NN O
 32GB CD B-HRD
@@ -24355,7 +24355,7 @@ unlocked
 smartphone NN O
 orange
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A5
 built-in
 A-GPS
@@ -24462,7 +24462,7 @@ firefox
 OS
 Processor NN O
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A5
 Processor NN O
 Core NNP O
@@ -24470,7 +24470,7 @@ Single-Core NNP O
 Processor NN O
 Speed
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 RAM
 Under
 512MB
@@ -24489,8 +24489,8 @@ MicroSD NNP O
 Max
 Storage NN O
 Expansion
-up
-to
+up RP O
+to TO O
 32
 GB
 Connectivity
@@ -24642,17 +24642,17 @@ Storage NN O
 8GB CD B-HRD
 Battery NN O
 . . O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 8.8
 . . O
 (3G)
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 240
 . . O
 (4G)
@@ -24757,7 +24757,7 @@ core NNP O
 Processor NN O
 Speed
 . . O
-GHz CD B-PCS
+GHz NNP B-PCS
 Built-in
 Storage NN O
 . . O
@@ -24772,8 +24772,8 @@ Card NN O
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 64
 GB
 Connectivity
@@ -24803,29 +24803,29 @@ Type
 Removable
 Li-Ion
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 14
 . . O
 40
 min
 (2G)
 . . O
-Up
-to
+Up RP O
+to TO O
 . . O
 h
 40
 min
 (3G)
 Standby
-Time
+Time NN O
 (2G)
 . . O
-Up
-to
+Up RP O
+to TO O
 360
 . . O
 (3G)
@@ -24849,11 +24849,11 @@ Wi-Fi
 3G
 SNS
 integration
-Active
-noise
-cancellation
+Active NNP O
+noise NN O
+cancellation NN O
 with RP O
-dedicated
+dedicated VBD O
 mic
 7GB
 free
@@ -24927,7 +24927,7 @@ Black JJ O
 Dual JJ B-SIM
 SIM NNP I-SIM
 no RB O
-Micro-SIM
+Micro-SIM NNP B-SIM
 Display NN O
 . . O
 Touch
@@ -24936,8 +24936,8 @@ Yes
 Main
 Display NN O
 Size
-5.5
-inches
+5.5 CD B-SCR
+inches NNS I-SCR
 Main
 Display NN O
 Resolution
@@ -24956,7 +24956,7 @@ Format
 Curved
 P-OLED
 capacitive JJ O
-touchscreen
+touchscreen NN O
 Camera NN O
 . . O
 Rear
@@ -25001,8 +25001,8 @@ Expansion
 Slot NN O
 Type
 microSD NNP O
-up
-to
+up RP O
+to TO O
 128
 GB
 Connectivity
@@ -25065,12 +25065,12 @@ LTE NNP I-CTY
 CPU NNP O
 Quad-core NNP O
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp; CC O
 Quad-core NNP O
 . . O
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A57
 . . O
 
@@ -25385,7 +25385,7 @@ Dual-Core NNP O
 Processor NN O
 Speed
 1.0
-GHz CD B-PCS
+GHz NNP B-PCS
 RAM
 512MB
 Built-in
@@ -25400,8 +25400,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 32GB CD B-HRD
 Connectivity
 . . O
@@ -25426,28 +25426,28 @@ Type
 Removable
 Li-Ion
 Battery NN O
-Talk
-Time
+Talk VB O
+Time NN O
 . . O
 - - O
 . . O
 hours
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 72
 Hours
 Operating VBG O
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 . . O
 hours
 on RP O
 3G
-Up
-to
+Up RP O
+to TO O
 . . O
 hours
 on RP O
@@ -25663,8 +25663,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 32GB CD B-HRD
 Connectivity
 . . O
@@ -25688,35 +25688,35 @@ Type
 Removable
 Li-Ion
 Battery NN O
-Talk
-Time
+Talk VB O
+Time NN O
 . . O
 - - O
 . . O
 hours
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 200
 hours
 (2G)
 . . O
-Up
-to
+Up RP O
+to TO O
 200
 hours
 (3G)
 Operating VBG O
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 . . O
 hours
 on RP O
 3G
-Up
-to
+Up RP O
+to TO O
 . . O
 hours
 on RP O
@@ -25918,8 +25918,8 @@ Lumia
 Wi-Fi
 MS
 Win.
-Quad
-Band
+Quad NNP B-CTY
+Band NNP I-CTY
 Unlocked VBN O
 Phone NN O
 (Black)
@@ -25975,8 +25975,8 @@ Support
 IEEE802.11b/g/n
 Battery NN O
 . . O
-Talk
-Time
+Talk VB O
+Time NN O
 . . O
 - - O
 11
@@ -26019,7 +26019,7 @@ RAM
 8.0MP
 Fast JJ O
 Ship
-From
+From RP O
 US NNP O
 " '' O
 . . O
@@ -26083,7 +26083,7 @@ Quad-Core NNP O
 Processor NN O
 Speed
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 RAM
 1GB
 Built-in
@@ -26098,8 +26098,8 @@ Card)
 Max
 Storage NN O
 Expansion
-up
-to
+up RP O
+to TO O
 32
 GB
 Connectivity
@@ -26120,28 +26120,28 @@ Type
 Lithium
 Ion
 Battery NN O
-Talk
-Time
+Talk VB O
+Time NN O
 . . O
 - - O
 . . O
 hours
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 300
 hours
 Operating VBG O
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 . . O
 hours
 on RP O
 3G
-Up
-to
+Up RP O
+to TO O
 10
 hours
 on RP O
@@ -26314,8 +26314,8 @@ Card)
 Max
 Storage NN O
 Expansion
-Up
-to
+Up RP O
+to TO O
 32GB CD B-HRD
 Connectivity
 . . O
@@ -26483,7 +26483,7 @@ Dual-Core NNP O
 Processor NN O
 Speed
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Connectivity
 . . O
 Wi-Fi
@@ -26510,48 +26510,48 @@ Type
 Lithium
 Ion
 Battery NN O
-Talk
-Time
-Up
-to
+Talk VB O
+Time NN O
+Up RP O
+to TO O
 . . O
 hours
 Standby
-Time
-Up
-to
+Time NN O
+Up RP O
+to TO O
 225
 hours
 Operating VBG O
-Time
+Time NN O
 Internet
 use:
-Up
-to
+Up RP O
+to TO O
 . . O
 hours
 on RP O
 3G
-up
-to
+up RP O
+to TO O
 . . O
 hours
 on RP O
-LTE
-up
-to
+LTE NNP B-CTY
+up RP O
+to TO O
 10
 hours
 on RP O
 Wi-FiVideo
 playback:
-Up
-to
+Up RP O
+to TO O
 10
 hoursAudio
 playback:
-Up
-to
+Up RP O
+to TO O
 40
 hours
 Software
@@ -26658,8 +26658,8 @@ your PRP O
 world NN O
 at
 speeds
-up
-to
+up RP O
+to TO O
 10x
 faster
 than
@@ -26670,8 +26670,8 @@ LTE NNP I-CTY
 Cat
 . . O
 support
-up
-to
+up RP O
+to TO O
 150Mbps.
 7.0-inch
 IPS NNP O
@@ -26698,7 +26698,7 @@ Megapixel NNP O
 Camera NN O
 Quad-Core NNP O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Qualcomm NNP O
 Snapdragon NNP O
 410
@@ -26799,7 +26799,7 @@ Generation:
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -26881,7 +26881,7 @@ has
 the DT O
 things
 that
-made
+made VBP O
 iPhone NNP O
 . . O
 an DT O
@@ -27009,8 +27009,8 @@ Li-Po
 mAh
 battery NN O
 Talktime:
-Up
-to
+Up RP O
+to TO O
 10
 . . O
 Standby
@@ -27111,7 +27111,7 @@ efficiently
 measures
 your PRP O
 activity
-from
+from RP O
 advanced
 sensors NNS O
 including VBG O
@@ -27138,7 +27138,7 @@ and CC O
 for IN O
 the DT O
 first
-time
+time NN O
 create
 time-lapse
 videos..
@@ -27168,7 +27168,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -27269,7 +27269,7 @@ Saving VBG O
 Mode NN O
 and CC O
 built-in
-wireless
+wireless NNS O
 charging VBG O
 capabilities
 the DT O
@@ -27350,7 +27350,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -27440,7 +27440,7 @@ you
 could
 ask
 for IN O
-from
+from RP O
 the DT O
 awesome
 Google
@@ -27518,7 +27518,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -27647,7 +27647,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -27732,7 +27732,7 @@ efficiently
 measures
 your PRP O
 activity
-from
+from RP O
 advanced
 sensors NNS O
 including VBG O
@@ -27759,7 +27759,7 @@ and CC O
 for IN O
 the DT O
 first
-time
+time NN O
 create
 time-lapse
 videos..
@@ -27793,7 +27793,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -27880,7 +27880,7 @@ browser
 experience
 in RP O
 your PRP O
-Advance
+Advance NNP O
 4.0
 . . O
 with RP O
@@ -27949,7 +27949,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -28008,11 +28008,11 @@ frame
 for IN O
 your PRP O
 life.
-Crafted
-from
+Crafted JJ O
+from RP O
 aeronautical-grade
 anodized
-aluminum
+aluminum NN O
 the DT O
 new
 Nexus NNP O
@@ -28039,7 +28039,7 @@ new
 visor
 on RP O
 the DT O
-back
+back RP O
 of
 the DT O
 device NN O
@@ -28078,7 +28078,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -28168,7 +28168,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -28268,7 +28268,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -28307,7 +28307,7 @@ without
 color.
 Stand
 out
-from
+from RP O
 the DT O
 crowd
 with RP O
@@ -28338,14 +28338,14 @@ qHD
 IPS NNP O
 Display.
 Display NN O
-up
-to
-three
+up RP O
+to TO O
+three CD O
 apps
 at
 the DT O
 same
-time
+time NN O
 and CC O
 avoid
 constant
@@ -28402,7 +28402,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -28482,7 +28482,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -28519,7 +28519,7 @@ With RP O
 its
 refined
 full JJ O
-metal
+metal NN O
 unibody
 design
 5-inch CD B-SCR
@@ -28542,7 +28542,7 @@ and CC O
 light.
 Available
 in RP O
-four
+four CD O
 beautiful
 colours
 it
@@ -28607,7 +28607,7 @@ features
 image NN O
 detection NN O
 . . O
-voice
+voice NN O
 recognition
 software
 and CC O
@@ -28653,7 +28653,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -28730,7 +28730,7 @@ ITEM#:
 . . O
 . . O
 Brushed
-Metal
+Metal NN O
 Design
 Wrap-around
 unibody
@@ -28744,8 +28744,8 @@ Built
 to
 inspire
 envy.
-Crafted
-from
+Crafted JJ O
+from RP O
 the DT O
 ground
 up
@@ -28757,7 +28757,7 @@ features
 . . O
 bold
 brushed
-metal
+metal NN O
 design.
 Stacked
 internal JJ O
@@ -28779,7 +28779,7 @@ fits
 your PRP O
 hand
 with RP O
-natural
+natural JJ O
 ease..
 . . O
 Cell NN O
@@ -28814,7 +28814,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -28916,7 +28916,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -29043,7 +29043,7 @@ HSDPA
 1900/
 2100
 4G:
-LTE
+LTE NNP B-CTY
 700
 . . O
 800
@@ -29245,12 +29245,12 @@ with RP O
 SIM
 card..
 Although
-Talk
+Talk VB O
 and CC O
 Text
 is VB O
 guaranteed
-Wireless
+Wireless NNS O
 Data
 configuration.
 on RP O
@@ -29264,12 +29264,12 @@ service
 provider.
 To.
 configure
-wireless
+wireless NNS O
 data
 please
 contact
 your PRP O
-wireless
+wireless NNS O
 carrier.
 directly.
 For IN O
@@ -29348,7 +29348,7 @@ ITEM#:
 The Samsung
 Galaxy NNP O
 S6
-Active
+Active NNP O
 is VB O
 ready
 for IN O
@@ -29373,7 +29373,7 @@ Octa-Core NNP O
 processor NN O
 the DT O
 S6
-Active
+Active NNP O
 also
 has
 weatherproofing VBG O
@@ -29389,7 +29389,7 @@ Display:
 5.1-inch
 Super JJ O
 AMOLED NNP O
-Touchscreen
+Touchscreen NN O
 . . O
 Carrier:
 AT&amp
@@ -29482,7 +29482,7 @@ OPP
 PAN
 PBAP
 . . O
-Wireless
+Wireless NNS O
 interface:
 Wi-FiVersion
 . . O
@@ -29501,7 +29501,7 @@ Port
 NFC
 . . O
 Processor: 2.1
-GHz CD B-PCS
+GHz NNP B-PCS
 Samsung
 Exynos
 7420
@@ -29554,10 +29554,10 @@ Integrated
 memory: NN O
 32GB CD B-HRD
 . . O
-Talk
+Talk VB O
 time:
-Up
-to
+Up RP O
+to TO O
 24
 hours
 . . O
@@ -29722,7 +29722,7 @@ displays..
 Everything VBG O
 looks
 sharper
-from
+from RP O
 games
 to
 text
@@ -29764,7 +29764,7 @@ This DT O
 unlocked
 smart
 phone NN O
-from
+from RP O
 Apple NNP O
 is VB O
 compatible JJ O
@@ -29775,7 +29775,7 @@ AT&amp
 Cingular
 and CC O
 T-Mobile NNP O
-networks.
+networks. NNS O
 The DT O
 Safari
 web
@@ -29841,9 +29841,9 @@ GSM NNP B-CTY
 HSDPA.
 850/1900/2100
 Keyboard:
-Touchscreen
+Touchscreen NN O
 QWERTY
-Wireless
+Wireless NNS O
 interface:
 Bluetooth
 v2.1
@@ -29889,23 +29889,23 @@ upgradable JJ O
 to
 iOS NNP O
 6.1.3
-Talk
+Talk VB O
 time:
-Up
-to
+Up RP O
+to TO O
 12
 . . O
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 . . O
 h
 3G
 Standby
 time:
-Up
-to
+Up RP O
+to TO O
 300
 . . O
 Color:
@@ -29973,8 +29973,8 @@ that
 can
 be
 expanded
-up
-to
+up RP O
+to TO O
 128GB
 via
 . . O
@@ -30042,7 +30042,7 @@ Gyroscope.
 . . O
 2100
 4G:
-LTE
+LTE NNP B-CTY
 700
 . . O
 850
@@ -30080,7 +30080,7 @@ VGA
 Camera NN O
 Quad-Core NNP O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Processor NN O
 Chipset: NNP O
 Spreadtrum
@@ -30090,8 +30090,8 @@ Graphics NNP O
 Internal JJ O
 Memory: NN O
 8GB CD B-HRD
-768MB
-RAM
+768MB CD B-RAM
+RAM NNP O
 . . O
 microSD NNP O
 Slot NN O
@@ -30132,13 +30132,13 @@ Li-Ion
 mAH
 Battery NN O
 Talktime:
-Up
-to
+Up RP O
+to TO O
 . . O
 Hours
 Standby:
-Up
-to
+Up RP O
+to TO O
 60
 Hours
 Dimensions:
@@ -30256,7 +30256,7 @@ The DT O
 Samsung
 Galaxy NNP O
 S6
-Active
+Active NNP O
 is VB O
 built
 for IN O
@@ -30278,8 +30278,8 @@ dust
 and CC O
 water.
 resistance
-up
-to
+up RP O
+to TO O
 1.5
 meters
 for IN O
@@ -30300,7 +30300,7 @@ The.
 5.1-inch
 Super JJ O
 AMOLED NNP O
-touchscreen
+touchscreen NN O
 provides
 vibrant
 life-like.
@@ -30359,19 +30359,19 @@ large
 500mAh
 battery NN O
 provides
-up
-to
+up RP O
+to TO O
 24
 hours.
 of
-talk
-time
+talk VB O
+time NN O
 and CC O
 504
 hours
 of
 standby
-time
+time NN O
 - - O
 perfect
 for IN O
@@ -30482,7 +30482,7 @@ Exynos
 CPU: 
 Quad-core.
 1.5
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A53 NNP O
 &amp
 Quad-core NNP O
@@ -30534,7 +30534,7 @@ MIMO
 . . O
 Wi-Fi
 Direct
-Wireless
+Wireless NNS O
 interfaces:
 Mobile NN O
 Hotspot
@@ -30563,8 +30563,8 @@ dust
 and CC O
 water.
 resistant
-up
-to
+up RP O
+to TO O
 1.5
 meters
 for IN O
@@ -30612,10 +30612,10 @@ Battery: NN O
 500mAh
 Lithium-Ion
 non-removable
-Talk
+Talk VB O
 time:
-Up
-to
+Up RP O
+to TO O
 24
 hours
 Standby
@@ -30624,7 +30624,7 @@ time:
 hours
 Color NN O
 options:
-Grey
+Grey JJ O
 Model:
 SM-G890A
 Included VBN O
@@ -30748,8 +30748,8 @@ ITEM#:
 . . O
 . . O
 Stay
-up
-to
+up RP O
+to TO O
 date
 with RP O
 all DT O
@@ -30960,7 +30960,7 @@ features
 strong
 7000
 Series
-aluminum
+aluminum NN O
 and CC O
 . . O
 tough
@@ -31227,15 +31227,15 @@ Retina
 display NN O
 fast JJ O
 LTE.
-wireless
+wireless NNS O
 and CC O
 iOS NNP O
 8.
 iPhone NNP O
 5C
-supports
+supports VBS O
 fast JJ O
-LTE
+LTE NNP B-CTY
 bands NNS O
 around IN O
 the.
@@ -31419,9 +31419,9 @@ on RP O
 any
 of
 the DT O
-four
-major
-U.S.
+four CD O
+major JJ O
+U.S. NNP O
 carriers. NNS O
 This DT O
 item
@@ -31625,7 +31625,7 @@ HSDPA
 . . O
 2100
 4G:
-LTE
+LTE NNP B-CTY
 GSM NNP B-CTY
 2100
 B1
@@ -31659,7 +31659,7 @@ Megapixel NNP O
 Camera NN O
 Quad-Core NNP O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Processor NN O
 Chipset: NNP O
 Qualcomm NNP O
@@ -31705,13 +31705,13 @@ Li-Ion
 mAh
 Battery NN O
 Talktime:
-Up
-to
+Up RP O
+to TO O
 17
 Hours
 Standby:
-Up
-to
+Up RP O
+to TO O
 720
 Hours
 Dimensions:
@@ -31943,26 +31943,26 @@ Li-Po
 mAh
 Battery NN O
 Talktime:
-Up
-to
+Up RP O
+to TO O
 10
 Hours
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 10
 Hours
 3G
 Standby:
-Up
-to
+Up RP O
+to TO O
 250
 Hours
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 250
 Hours
 3G
@@ -32068,8 +32068,8 @@ phone NN O
 features
 10-hour.
 battery NN O
-talk
-time
+talk VB O
+time NN O
 meaning VBG O
 more
 phone NN O
@@ -32121,7 +32121,7 @@ with RP O
 ease.
 The DT O
 device NN O
-supports
+supports VBS O
 4G.
 broadband
 connectivity
@@ -32163,7 +32163,7 @@ to.
 the DT O
 device's
 contents.
-Supports
+Supports VBS O
 4G
 technology NN O
 for IN O
@@ -32188,7 +32188,7 @@ storage NN O
 offers
 ample
 space
-Supports
+Supports VBS O
 multi-touch NNP O
 inputs
 Uses
@@ -32332,8 +32332,8 @@ preview
 photos
 in RP O
 real
-time
-natural
+time NN O
+natural JJ O
 light
 and CC O
 color NN O
@@ -32437,7 +32437,7 @@ SM-G900A
 . . O
 4G
 Network:
-LTE
+LTE NNP B-CTY
 700
 . . O
 850
@@ -32458,8 +32458,8 @@ Touch
 screen NN O
 Connectivity:
 microSD NNP O
-up
-to
+up RP O
+to TO O
 128
 GB
 . . O
@@ -32531,16 +32531,16 @@ upgradable JJ O
 to.
 v4.4
 KitKat
-Talk
+Talk VB O
 time:
-Up
-to
+Up RP O
+to TO O
 21
 hours
 Standby
 time:
-Up
-to
+Up RP O
+to TO O
 390
 hours
 Color:
@@ -32597,12 +32597,12 @@ with RP O
 SIM
 card..
 Although
-Talk
+Talk VB O
 and CC O
 Text
 is VB O
 guaranteed
-Wireless
+Wireless NNS O
 Data
 configuration.
 on RP O
@@ -32616,12 +32616,12 @@ service
 provider.
 To.
 configure
-wireless
+wireless NNS O
 data
 please
 contact
 your PRP O
-wireless
+wireless NNS O
 carrier.
 directly.
 For IN O
@@ -32749,7 +32749,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -32932,8 +32932,8 @@ Battery NN O
 Talktime:
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 17
 Hours
 3G
@@ -32989,7 +32989,7 @@ Generation:
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -33058,7 +33058,7 @@ HSDPA
 IPS NNP O
 LCD
 Capacitive JJ O
-Touchscreen
+Touchscreen NN O
 Android NNP B-TSW
 v4.4.2 NNP I-TSW
 KitKat NNP I-TSW
@@ -33085,7 +33085,7 @@ Megapixel NNP O
 Camera NN O
 Quad-Core NNP O
 1.2
-GHz CD B-PCS
+GHz NNP B-PCS
 Cortex-A7
 Processor NN O
 Chipset: NNP O
@@ -33145,8 +33145,8 @@ Li-Ion
 mAh
 Battery NN O
 Talktime:
-Up
-to
+Up RP O
+to TO O
 16
 Hours
 2G
@@ -33157,14 +33157,14 @@ to
 Hours
 3G
 Standby:
-Up
-to
+Up RP O
+to TO O
 700
 Hours
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 750
 Hours.
 3G
@@ -33212,7 +33212,7 @@ Generation:
 3G
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 Exact
 Color:
 White JJ O
@@ -33425,26 +33425,26 @@ Li-Po
 mAh
 Battery NN O
 Talktime:
-Up
-to
+Up RP O
+to TO O
 10
 Hours
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 10
 Hours
 3G
 Standby:
-Up
-to
+Up RP O
+to TO O
 250
 Hours
 2G
 . . O
-Up
-to
+Up RP O
+to TO O
 250
 Hours
 3G
@@ -33594,7 +33594,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -33705,7 +33705,7 @@ resolution
 4-inch
 display NN O
 Siri
-voice
+voice NN O
 assistant
 AirPlay
 media
@@ -33748,7 +33748,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -33846,7 +33846,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -33944,7 +33944,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -34059,7 +34059,7 @@ resolution
 4-inch
 display NN O
 Siri
-voice
+voice NN O
 assistant
 AirPlay
 media
@@ -34102,7 +34102,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -34158,7 +34158,7 @@ ITEM#:
 The DT O
 Xperia
 Z2a
-from
+from RP O
 Sony
 is VB O
 . . O
@@ -34237,7 +34237,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -34287,7 +34287,7 @@ more!
 transformative
 design
 featuring VBG O
-metal
+metal NN O
 unibody
 construction
 slide
@@ -34298,7 +34298,7 @@ modular
 functionality.
 Free
 yourself
-from
+from RP O
 boundaries
 with RP O
 . . O
@@ -34312,7 +34312,7 @@ capture
 more.
 See
 the DT O
-time
+time NN O
 date
 and CC O
 important
@@ -34352,7 +34352,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -34388,7 +34388,7 @@ ITEM#:
 . . O
 . . O
 Brushed
-Metal
+Metal NN O
 Design
 Wrap-around
 unibody
@@ -34402,8 +34402,8 @@ Built
 to
 inspire
 envy.
-Crafted
-from
+Crafted JJ O
+from RP O
 the DT O
 ground
 up
@@ -34415,7 +34415,7 @@ features
 . . O
 bold
 brushed
-metal
+metal NN O
 design.
 Stacked
 internal JJ O
@@ -34437,7 +34437,7 @@ fits
 your PRP O
 hand
 with RP O
-natural
+natural JJ O
 ease..
 . . O
 Cell NN O
@@ -34472,7 +34472,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 For IN O
 state-specific
@@ -34560,7 +34560,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -34651,7 +34651,7 @@ this DT O
 device NN O
 will MD O
 run
-quick
+quick JJ O
 and CC O
 smooth.
 Use
@@ -34661,7 +34661,7 @@ M7
 smartphone NN O
 to
 make
-voice
+voice NN O
 and CC O
 video NN O
 calls
@@ -34710,7 +34710,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -34826,7 +34826,7 @@ more
 with RP O
 its
 stunning VBG O
-metal
+metal NN O
 bezel
 sophisticated
 glass
@@ -34881,7 +34881,7 @@ Fast JJ O
 Charging VBG O
 . . O
 or CC O
-wireless
+wireless NNS O
 charging3
 to
 extend
@@ -34922,7 +34922,7 @@ Compatible JJ O
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -35056,13 +35056,13 @@ features
 Siri
 - - O
 . . O
-voice
+voice NN O
 assistant
 heeding VBG O
 natural-language
 questions
 and CC O
-commands
+commands NNS O
 and CC O
 taking VBG O
 dictation.
@@ -35137,7 +35137,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -35314,7 +35314,7 @@ Flip
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -35397,7 +35397,7 @@ arc
 design
 features
 . . O
-back
+back RP O
 key
 for IN O
 easy
@@ -35477,7 +35477,7 @@ Bar
 . . O
 Input
 Method:
-Touchscreen
+Touchscreen NN O
 . . O
 Exact
 Color:
@@ -35517,7 +35517,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -35525,7 +35525,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -35602,7 +35602,7 @@ fingerprint NN O
 identity
 sensor.
 Faster
-LTE
+LTE NNP B-CTY
 and CC O
 Wi-Fi.
 Longer
@@ -35640,7 +35640,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -35648,7 +35648,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -35690,7 +35690,7 @@ KitKat
 operating VBG O
 system
 for IN O
-quick
+quick JJ O
 and CC O
 easy
 navigation
@@ -35741,7 +35741,7 @@ with RP O
 1GB CD B-RAM
 RAM NNP O
 and CC O
-4GB
+4GB CD B-HRD
 internal JJ O
 memory.
 
@@ -35764,7 +35764,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -35772,7 +35772,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -35818,7 +35818,7 @@ Web
 text
 and CC O
 call
-from
+from RP O
 one CD O
 device.
 
@@ -35841,7 +35841,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -35849,7 +35849,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -35903,7 +35903,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -35911,7 +35911,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -35941,7 +35941,7 @@ Live
 Photos
 7000
 series
-aluminum
+aluminum NN O
 A9
 chip NN O
 advanced
@@ -35977,7 +35977,7 @@ with RP O
 Touch.
 7000
 series
-aluminum
+aluminum NN O
 and CC O
 stronger
 cover
@@ -36000,7 +36000,7 @@ Photos.
 Touch
 ID.
 Faster
-LTE
+LTE NNP B-CTY
 and CC O
 Wi-Fi.1
 Long
@@ -36038,7 +36038,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -36046,7 +36046,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -36194,7 +36194,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -36202,7 +36202,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -36302,7 +36302,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -36310,7 +36310,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -36414,11 +36414,11 @@ ease.
 It
 offers
 . . O
-talk
-time
+talk VB O
+time NN O
 of
-up
-to
+up RP O
+to TO O
 10
 hours
 between
@@ -36457,7 +36457,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -36465,7 +36465,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -36545,16 +36545,16 @@ and CC O
 instant
 messaging.
 Enjoy
-up
-to
+up RP O
+to TO O
 24
 hours
 of
-talk
-time
+talk VB O
+time NN O
 and CC O
-up
-to
+up RP O
+to TO O
 890
 hours
 of
@@ -36621,7 +36621,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -36629,7 +36629,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -36691,7 +36691,7 @@ share
 pictures
 with RP O
 the DT O
-2MP
+2MP CD B-CAM
 camera NN O
 watch
 videos
@@ -36753,19 +36753,19 @@ of
 It
 offers
 . . O
-talk
-time
+talk VB O
+time NN O
 of
-up
-to
+up RP O
+to TO O
 . . O
 hours
 and CC O
 standby
-time
+time NN O
 of
-up
-to
+up RP O
+to TO O
 150
 hours.
 " '' O
@@ -36789,7 +36789,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -36797,7 +36797,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -36851,8 +36851,8 @@ at
 120
 fps
 and CC O
-LTE
-wireless
+LTE NNP B-CTY
+wireless NNS O
 . . O
 all DT O
 in RP O
@@ -36860,7 +36860,7 @@ in RP O
 slim
 design
 in RP O
-three
+three CD O
 metallic
 finishes.
 Apple NNP O
@@ -36955,7 +36955,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -36963,7 +36963,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -37009,7 +37009,7 @@ Web
 text
 and CC O
 call
-from
+from RP O
 one CD O
 device.
 
@@ -37032,7 +37032,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -37040,7 +37040,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -37136,7 +37136,7 @@ and CC O
 5.1""
 Super JJ O
 AMOLED NNP O
-touchscreen
+touchscreen NN O
 display.
 Powered
 by
@@ -37174,7 +37174,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -37182,7 +37182,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -37217,7 +37217,7 @@ Motorola
 MOTO
 . . O
 XT1032
-U.S.
+U.S. NNP O
 Unlocked VBN O
 GSM NNP B-CTY
 Smartphone.
@@ -37225,7 +37225,7 @@ It
 features
 . . O
 large
-touchscreen
+touchscreen NN O
 display NN O
 and CC O
 Android
@@ -37268,12 +37268,12 @@ unlocked
 smartphone NN O
 you
 have VB O
-up
-to
+up RP O
+to TO O
 24
 hours
 of
-talk
+talk VB O
 time.
 You
 also
@@ -37333,7 +37333,7 @@ Motorola
 MOTO
 . . O
 XT1032
-U.S.
+U.S. NNP O
 Unlocked VBN O
 GSM NNP B-CTY
 Smartphone."
@@ -37357,7 +37357,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -37365,7 +37365,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -37490,7 +37490,7 @@ service
 and CC O
 in RP O
 . . O
-sleek
+sleek JJ O
 style.
 
 . . O
@@ -37512,7 +37512,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -37520,7 +37520,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -37558,7 +37558,7 @@ the DT O
 HTC
 Desire
 526
-prepaid
+prepaid NN O
 smartphone.
 Put
 favorite
@@ -37577,7 +37577,7 @@ the DT O
 phone's
 look.
 Verizon NNP O
-prepaid
+prepaid NN O
 plans
 offer
 you
@@ -37635,7 +37635,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -37643,7 +37643,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -37709,7 +37709,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -37717,7 +37717,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -37789,7 +37789,7 @@ an DT O
 MP3/WAV
 player
 and CC O
-voice
+voice NN O
 over RP O
 LTE.
 There
@@ -37818,8 +37818,8 @@ as TO O
 well RBR O
 as TO O
 . . O
-talk
-time
+talk VB O
+time NN O
 of
 . . O
 full JJ O
@@ -37836,7 +37836,7 @@ beautiful
 4.7-inch CD B-SCR
 Retina
 HD NNP O
-touchscreen
+touchscreen NN O
 display NN O
 with RP O
 . . O
@@ -37911,7 +37911,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -37919,7 +37919,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -37971,7 +37971,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -37979,7 +37979,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -38064,14 +38064,14 @@ The DT O
 battery NN O
 holds
 enough
-charge
+charge NN O
 so
 you
 can
-talk
+talk VB O
 for IN O
-up
-to
+up RP O
+to TO O
 18
 hours.
 This DT O
@@ -38090,8 +38090,8 @@ allows
 you
 to
 hook
-up
-to
+up RP O
+to TO O
 headphones
 speakers
 and CC O
@@ -38101,7 +38101,7 @@ of
 other DT O
 devices
 for IN O
-wireless
+wireless NNS O
 control."
 
 . . O
@@ -38123,7 +38123,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -38131,7 +38131,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -38164,7 +38164,7 @@ of
 the DT O
 features
 that
-made
+made VBP O
 iPhone NNP O
 5C
 one CD O
@@ -38222,7 +38222,7 @@ It
 has
 Bluetooth
 v4.0
-wireless
+wireless NNS O
 technology NN O
 designed
 to
@@ -38233,7 +38233,7 @@ phone NN O
 with RP O
 your PRP O
 other DT O
-wireless
+wireless NNS O
 devices.
 The DT O
 8MP B-CAM
@@ -38283,19 +38283,19 @@ ease.
 It
 has
 . . O
-talk
-time
+talk VB O
+time NN O
 of
-up
-to
+up RP O
+to TO O
 10
 hours
 and CC O
 standby
-time
+time NN O
 of
-up
-to
+up RP O
+to TO O
 250
 hours.
 The DT O
@@ -38342,7 +38342,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -38350,7 +38350,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -38405,11 +38405,11 @@ cell NN O
 phone NN O
 offers
 . . O
-talk
-time
+talk VB O
+time NN O
 of
-up
-to
+up RP O
+to TO O
 4.25
 hours.
 It
@@ -38476,7 +38476,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -38484,7 +38484,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -38528,24 +38528,24 @@ phone NN O
 with RP O
 . . O
 Dual-core NNP O
-2.15
-GHz CD B-PCS
-Kryo
+2.15 CD B-PCS
+GHz NNP I-PCS
+Kryo NNP O
 . . O
 dual-core NNP O
-1.6
-GHz CD B-PCS
-Kryo
+1.6 CD B-PCS
+GHz NNP I-PCS
+Kryo NNP O
 processor NN O
 also
 Quad-core NNP O
-2.3
-GHz CD B-PCS
+2.3 CD B-PCS
+GHz CD I-PCS
 Cortex-A53 NNP O
 . . O
 quad-core NNP O
-1.6
-GHz CD B-PCS
+1.6 CD B-PCS
+GHz NNP I-PCS
 Cortex-A53 NNP O
 powered
 by
@@ -38680,7 +38680,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -38688,7 +38688,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -38724,7 +38724,7 @@ Verizon NNP O
 Samsung
 Galaxy NNP O
 J1
-Prepaid
+Prepaid NN O
 Smartphone NN O
 Blue.
 Powered
@@ -38811,7 +38811,7 @@ best
 part?
 With RP O
 Verizon NNP O
-prepaid
+prepaid NN O
 plans
 you
 get
@@ -38870,7 +38870,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -38878,7 +38878,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39046,7 +39046,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39054,7 +39054,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39109,7 +39109,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39117,7 +39117,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39272,7 +39272,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39280,7 +39280,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39334,7 +39334,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39342,7 +39342,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39394,7 +39394,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39402,7 +39402,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39485,7 +39485,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39493,7 +39493,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39562,7 +39562,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39570,7 +39570,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39666,8 +39666,8 @@ The DT O
 seamless
 design
 is VB O
-made
-from
+made VBP O
+from RP O
 . . O
 new
 alloy
@@ -39701,7 +39701,7 @@ mobile NN O
 operating VBG O
 system
 gets
-major
+major JJ O
 enhancements
 to
 an DT O
@@ -39739,7 +39739,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39747,7 +39747,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -39877,8 +39877,8 @@ speed.
 It's
 even
 expandable
-up
-to
+up RP O
+to TO O
 128GB
 through
 . . O
@@ -39916,7 +39916,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -39924,7 +39924,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -40005,7 +40005,7 @@ more.
 The DT O
 5.0-inch
 LCD
-touchscreen
+touchscreen NN O
 allows
 for IN O
 easy
@@ -40054,7 +40054,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -40062,7 +40062,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -40127,8 +40127,8 @@ charging.
 All DT O
 on RP O
 . . O
-sleek
-metal
+sleek JJ O
+metal NN O
 frame
 that
 looks
@@ -40173,7 +40173,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -40181,7 +40181,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -40235,7 +40235,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -40243,7 +40243,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -40287,7 +40287,7 @@ family.
 Use
 it
 to
-talk
+talk VB O
 or CC O
 text
 as TO O
@@ -40341,11 +40341,11 @@ which
 gives
 you
 . . O
-talk
-time
+talk VB O
+time NN O
 of
-up
-to
+up RP O
+to TO O
 12
 hours.
 
@@ -40368,7 +40368,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -40376,7 +40376,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -40407,7 +40407,7 @@ BLU NNP O
 Studio
 . . O
 5+5
-LTE
+LTE NNP B-CTY
 S0050UU
 GSM NNP B-CTY
 Android
@@ -40430,7 +40430,7 @@ Lollipop
 operating VBG O
 system
 for IN O
-quick
+quick JJ O
 and CC O
 easy
 navigation.
@@ -40532,7 +40532,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -40540,7 +40540,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -40587,7 +40587,7 @@ features
 5.5-inch CD B-SCR
 Retina
 HD NNP O
-touchscreen
+touchscreen NN O
 display NN O
 rear
 8MP B-CAM
@@ -40626,16 +40626,16 @@ lithium-ion
 battery NN O
 that
 provides
-up
-to
+up RP O
+to TO O
 24
 hours
 of
-talk
-time
+talk VB O
+time NN O
 and CC O
-up
-to
+up RP O
+to TO O
 384
 hours
 of
@@ -40694,7 +40694,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -40702,7 +40702,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -40817,8 +40817,8 @@ slot NN O
 that
 is VB O
 expandable
-up
-to
+up RP O
+to TO O
 128
 GB.
 Included VBN O
@@ -40838,7 +40838,7 @@ wall
 charger
 and CC O
 . . O
-quick
+quick JJ O
 start
 guide.
 All DT O
@@ -40878,7 +40878,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -40886,7 +40886,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -40916,7 +40916,7 @@ Live
 Photos
 7000
 series
-aluminum
+aluminum NN O
 A9
 chip NN O
 advanced
@@ -40952,7 +40952,7 @@ with RP O
 Touch.
 7000
 series
-aluminum
+aluminum NN O
 and CC O
 stronger
 cover
@@ -40975,7 +40975,7 @@ Photos.
 Touch
 ID.
 Faster
-LTE
+LTE NNP B-CTY
 and CC O
 Wi-Fi.1
 Long
@@ -41013,7 +41013,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -41021,7 +41021,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -41051,7 +41051,7 @@ this DT O
 unlocked
 cell NN O
 phone NN O
-from
+from RP O
 BLU.
 It
 features
@@ -41086,7 +41086,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -41094,7 +41094,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -41157,7 +41157,7 @@ mobile NN O
 WiFi
 hotspot
 DLNA
-wireless
+wireless NNS O
 media
 streaming VBG O
 kickstand
@@ -41284,7 +41284,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -41292,7 +41292,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -41398,7 +41398,7 @@ has
 4.5-inch
 super JJ O
 AMOLED NNP O
-touchscreen
+touchscreen NN O
 display NN O
 that
 is VB O
@@ -41457,7 +41457,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -41465,7 +41465,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -41536,10 +41536,10 @@ It
 offers
 . . O
 talking VBG O
-time
+time NN O
 of
-up
-to
+up RP O
+to TO O
 28
 hours
 giving VBG O
@@ -41554,7 +41554,7 @@ GSM NNP B-CTY
 smartphone NN O
 comes
 in RP O
-three
+three CD O
 different
 colors
 allowing VBG O
@@ -41632,7 +41632,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -41640,7 +41640,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -41694,7 +41694,7 @@ information
 may MD O
 not RP O
 be
-accurate
+accurate JJ O
 or CC O
 consistent
 with RP O
@@ -41702,7 +41702,7 @@ manufacturer
 information.
 For IN O
 updated
-accurate
+accurate JJ O
 country
 of
 origin
@@ -41733,7 +41733,7 @@ Samsung
 Galaxy NNP O
 J1
 mini
-LTE
+LTE NNP B-CTY
 J105M
 DUOS NNP O
 Dual-SIM
